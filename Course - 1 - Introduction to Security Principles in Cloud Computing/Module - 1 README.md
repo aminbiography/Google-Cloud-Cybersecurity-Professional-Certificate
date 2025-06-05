@@ -35,12 +35,12 @@
 - **Unstructured Data**: Includes images, audio, documents, etc.
 
 ### Networking
-Enables communication between cloud resources and the internet.
+Enables communication between cloud resources and the internet.  
 **Includes**:
-- **VPC/VNet**: Isolated network in the cloud
--**Load Balancer**: Distributes traffic
--**Security Groups/Firewalls**: Manage access
--**DNS Services**: Resolve domain names
+- **VPC/VNet**: Isolated network in the cloud.  
+- **Load Balancer**: Distributes traffic.  
+- **Security Groups/Firewalls**: Manage access.  
+- **DNS Services**: Resolve domain names.
 
 ---
 
