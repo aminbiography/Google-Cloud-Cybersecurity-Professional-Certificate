@@ -82,9 +82,3 @@ This knowledge applies to the following roles:
 - IAM Specialist  
 
 ---
-
-🧠 _Tip: Practice real-world use cases and scenario-based questions to demonstrate your understanding of shared responsibilities, IAM design, VPC setup, and securing cloud workloads._
-
-
-
-
