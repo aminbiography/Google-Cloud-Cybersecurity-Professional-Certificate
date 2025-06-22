@@ -46,15 +46,6 @@
 
 ---
 
-## Interview Tips
-
-- Explain your **thought process** during answers (not just the outcome).
-- Demonstrate understanding of **shared responsibility**, **IAM**, and **network security**.
-- Practice using tools like **gcloud**, **Cloud Shell**, and **Terraform**.
-- Be familiar with **threat intelligence**, **monitoring**, and **incident response**.
-
----
-
 ## Tools
 
 - **Cloud Shell**: Browser-based command-line tool for managing GCP.
@@ -62,5 +53,3 @@
 - **IAM**: Identity and Access Management — controls who can do what in your cloud.
 
 ---
-
-
