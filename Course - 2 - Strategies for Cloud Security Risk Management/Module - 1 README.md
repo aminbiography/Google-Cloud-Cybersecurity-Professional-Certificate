@@ -2,8 +2,6 @@
 
 ---
 
-## Topics Covered
-
 ### Security & Compliance Overview
 - **Security**: Protects systems from threats; ensures confidentiality, integrity, and availability.
 - **Compliance**: Adherence to internal/external regulations (e.g., HIPAA, NIST, SOC 2).
