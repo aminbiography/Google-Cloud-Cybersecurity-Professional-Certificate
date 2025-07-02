@@ -43,7 +43,7 @@
 - **PCI DSS**:
   - Applies to any organization handling cardholder data.
   - Compliance levels are based on annual transaction volume.
-  - Three key steps: **Assess &rar; Repair &rar; Report**.
+  - Three key steps: **Assess &rarr; Repair &rarr; Report**.
 
 ---
 
