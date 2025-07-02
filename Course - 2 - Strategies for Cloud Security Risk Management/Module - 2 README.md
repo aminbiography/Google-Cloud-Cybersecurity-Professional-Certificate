@@ -5,11 +5,11 @@
 ## Risk Management Frameworks
 - A **risk management framework** helps identify, assess, and manage security risks using structured practices and technologies.
 - Common frameworks:
-  - **NIST CSF** (Cybersecurity Framework)
-  - **NIST Privacy Framework**
-  - **ISO 27001**
-  - **SOC 2**
-  - **CIS Controls**
+  - **NIST CSF** (Cybersecurity Framework): National Institute of Standards and Technology Cybersecurity Framework
+  - **NIST Privacy Framework**: National Institute of Standards and Technology – Privacy Framework: A Tool for Improving Privacy through Enterprise Risk Management
+  - **ISO 27001**: International Organization for Standardization 27001
+  - **SOC 2**: System and Organization Controls 2
+  - **CIS Controls**: Center for Internet Security Controls
 - **Combined frameworks** (e.g., NIST + SOC 2, HITRUST) support audits across multiple standards.
 
 ---
