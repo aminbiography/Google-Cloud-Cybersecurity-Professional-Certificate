@@ -1,4 +1,4 @@
-# Cloud Security & Compliance 
+# Cloud Security Compliance and Policy Enforcement
 
 ---
 
