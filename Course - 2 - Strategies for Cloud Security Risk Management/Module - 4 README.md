@@ -30,7 +30,7 @@
 ## Policy Enforcement Mechanisms
 - **Boolean Constraints:** Enforce behaviors as `true` or `false`. (e.g., disable automatic role grants)
 - **List Constraints:** Allow/disallow specific values (e.g., locations, domains).
-- **Policy Inheritance:** Policies cascade from org → folder → project unless overridden.
+- **Policy Inheritance:** Policies cascade from org &rarr; folder &rarr; project unless overridden.
 
 ---
 
