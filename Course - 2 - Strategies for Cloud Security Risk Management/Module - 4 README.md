@@ -4,8 +4,8 @@
 - **Security Domains:** Key areas include IAM, network security, data protection, monitoring.
 - **Cloud Organizational Policy:** Restrictions/constraints on cloud services to enforce compliance and security.
 - **IAM vs. Org Policy:**
-  - IAM →&rarr; *Who* has access
-  - Org Policy → *What* configurations are allowed
+  - IAM &rarr; *Who* has access
+  - Org Policy &rarr; *What* configurations are allowed
 
 ---
 
