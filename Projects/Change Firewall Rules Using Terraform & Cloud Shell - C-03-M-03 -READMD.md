@@ -24,7 +24,7 @@ Use Terraform in Google Cloud Shell to deploy a Virtual Private Cloud (VPC) and 
 ### Step 1 — Activate Cloud Shell
 1. Click **Activate Cloud Shell** in Console.
 2. Click **Continue** and wait for initialization.
-![Firewall Rules](bar-graph-chart-image/Change%20Firewall%20Rules%20Using%20Terraform%20&%20Cloud%20Shell%20-%2001.jpg)
+![Firewall Rules](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Change%20Firewall%20Rules%20Using%20Terraform%20%26%20Cloud%20Shell%20-%2001.jpg)
 
 
 ---
