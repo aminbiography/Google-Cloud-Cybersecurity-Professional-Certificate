@@ -48,8 +48,6 @@ cat main.tf
 
 ![Change Firewall Rules Using Terraform & Cloud Shell](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Change%20Firewall%20Rules%20Using%20Terraform%20%26%20Cloud%20Shell%20-%2002.jpg)
 
-![Change Firewall Rules Using Terraform & Cloud Shell](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Change%20Firewall%20Rules%20Using%20Terraform%20%26%20Cloud%20Shell%20-%2003.jpg)
-
 ---
 
 ### Step 3 — Set Project & Initialize Terraform
@@ -59,6 +57,8 @@ gcloud config set project "$GOOGLE_CLOUD_PROJECT"
 terraform init
 ```
 Expected: “Terraform has been successfully initialized!”
+
+![Change Firewall Rules Using Terraform & Cloud Shell](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Change%20Firewall%20Rules%20Using%20Terraform%20%26%20Cloud%20Shell%20-%2003.jpg)
 
 ---
 
