@@ -88,6 +88,8 @@ gcloud compute networks list
 gcloud compute firewall-rules list --filter="name~^test-firewall-"
 ```
 
+![Change Firewall Rules Using Terraform & Cloud Shell](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Change%20Firewall%20Rules%20Using%20Terraform%20%26%20Cloud%20Shell%20-%2005.jpg)
+
 ---
 
 ### Step 6 — Modify Firewall Rules
