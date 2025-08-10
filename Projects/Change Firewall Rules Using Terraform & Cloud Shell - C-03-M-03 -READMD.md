@@ -73,6 +73,8 @@ yes
 Expected:  
 `Apply complete! Resources: 3 added, 0 changed, 0 destroyed.`
 
+![Change Firewall Rules Using Terraform & Cloud Shell](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Change%20Firewall%20Rules%20Using%20Terraform%20%26%20Cloud%20Shell%20-%2004.jpg)
+
 ---
 
 ### Step 5 — Verify Resources
