@@ -134,6 +134,8 @@ gcloud compute firewall-rules describe test-firewall-UNIQUE_ID \
   --format="yaml(name,allowed,denied,sourceRanges,targetTags,priority,direction)"
 ```
 
+![Change Firewall Rules Using Terraform & Cloud Shell](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Change%20Firewall%20Rules%20Using%20Terraform%20%26%20Cloud%20Shell%20-%2006.jpg)
+
 ---
 
 ### Step 9 — Cleanup
@@ -165,6 +167,8 @@ resource "google_compute_firewall" "test_firewall" {
   }
 }
 ```
+
+![Change Firewall Rules Using Terraform & Cloud Shell](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Change%20Firewall%20Rules%20Using%20Terraform%20%26%20Cloud%20Shell%20-%2007.jpg)
 
 ---
 
