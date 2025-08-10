@@ -24,7 +24,7 @@ Use Terraform in Google Cloud Shell to deploy a Virtual Private Cloud (VPC) and 
 ### Step 1 — Activate Cloud Shell
 1. Click **Activate Cloud Shell** in Console.
 2. Click **Continue** and wait for initialization.
-![Firewall Rules](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Change%20Firewall%20Rules%20Using%20Terraform%20%26%20Cloud%20Shell%20-%2001.jpg)
+![Change Firewall Rules Using Terraform & Cloud Shell](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Change%20Firewall%20Rules%20Using%20Terraform%20%26%20Cloud%20Shell%20-%2001.jpg)
 
 
 ---
@@ -45,6 +45,10 @@ cat main.tf
 - Creates VPC: `test-network-${local.name_suffix}`
 - Creates firewall: `test-firewall-${local.name_suffix}`
 - Allows `icmp` and `tcp` ports `80`, `8080`, `1000-2000`
+
+![Change Firewall Rules Using Terraform & Cloud Shell](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Change%20Firewall%20Rules%20Using%20Terraform%20%26%20Cloud%20Shell%20-%2002.jpg)
+
+![Change Firewall Rules Using Terraform & Cloud Shell](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Change%20Firewall%20Rules%20Using%20Terraform%20%26%20Cloud%20Shell%20-%2003.jpg)
 
 ---
 
