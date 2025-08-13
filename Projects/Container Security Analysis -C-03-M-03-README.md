@@ -20,7 +20,7 @@ To assess the security of a staging environment container and provide actionable
 
 **Configuration Diagram:**
 
-![Container Configuration](000000000000000000000000000000000000001.jpg)
+![Container Configuration](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Container%20Security%20Analysis%20-%20Configuration%20Diagram.jpg)
 
 ---
 
