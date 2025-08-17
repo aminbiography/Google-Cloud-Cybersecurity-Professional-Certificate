@@ -1,4 +1,4 @@
-# Cybersecurity & Cloud Security: Data Protection
+# Cloud Security Risks: Data Protection
 
 ## Asymmetric vs Symmetric Encryption
 - **Symmetric:** Uses a single secret key for both encryption and decryption. It is fast and efficient, but key distribution is a challenge because sharing the same key introduces risks. Commonly used in bulk data encryption.  
