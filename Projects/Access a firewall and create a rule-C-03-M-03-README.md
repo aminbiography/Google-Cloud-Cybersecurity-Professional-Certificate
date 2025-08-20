@@ -97,6 +97,8 @@ Confirmed that traffic was allowed due to the **allow-http-ssh** firewall rule.
 
 ![Firewall Rule Deny](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Access%20a%20firewall%20and%20create%20a%20rule-09.jpg)
 
+![Firewall Rule Deny](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Access%20a%20firewall%20and%20create%20a%20rule-10.jpg)
+
 ---
 
 ## Task 5: Analyze Firewall Logs  
@@ -109,6 +111,8 @@ Confirmed that traffic was allowed due to the **allow-http-ssh** firewall rule.
   - **rule applied:** `deny-http`  
 
 Verified that the deny rule was triggered successfully.  
+
+![Firewall Rule Analyze](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Access%20a%20firewall%20and%20create%20a%20rule-11.jpg)
 
 ---
 
