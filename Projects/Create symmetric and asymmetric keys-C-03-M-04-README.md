@@ -68,7 +68,7 @@ Steps performed:
 - **Private key:** Used for decryption or signing.  
 - **Public key:** Used for encryption or signature verification.  
 
-![Symmetric vs Asymmetric Keys](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Create%20symmetric%20and%20asymmetric%20keys-06.jpg?raw=true)
+![Symmetric vs Asymmetric Keys](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Create%20symmetric%20and%20asymmetric%20keys-06.jpg)
 
 ![Symmetric vs Asymmetric Keys](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Create%20symmetric%20and%20asymmetric%20keys-07.jpg?raw=true)
 
