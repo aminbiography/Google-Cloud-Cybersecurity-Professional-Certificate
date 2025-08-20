@@ -114,6 +114,8 @@ Verified that the deny rule was triggered successfully.
 
 ![Firewall Rule Analyze](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Access%20a%20firewall%20and%20create%20a%20rule-11.jpg)
 
+![Firewall Rule Analyze](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Access%20a%20firewall%20and%20create%20a%20rule-12.jpg)
+
 ---
 
 ## Conclusion  
