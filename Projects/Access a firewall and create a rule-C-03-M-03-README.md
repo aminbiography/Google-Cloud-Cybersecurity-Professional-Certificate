@@ -76,6 +76,10 @@ This environment allowed me to test both permitted and denied traffic scenarios.
 
 Confirmed that traffic was allowed due to the **allow-http-ssh** firewall rule.  
 
+![Firewall Rule Analyze](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Access%20a%20firewall%20and%20create%20a%20rule-06.jpg)
+
+![Firewall Rule Analyze](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Access%20a%20firewall%20and%20create%20a%20rule-07.jpg)
+
 ---
 
 ## Task 4: Create a Firewall Rule to Deny HTTP  
@@ -87,8 +91,10 @@ Confirmed that traffic was allowed due to the **allow-http-ssh** firewall rule.
   - Source range: `0.0.0.0/0`  
   - Blocked port: **80 (HTTP)**  
 
-**Result:** HTTP requests to the web server were **blocked**.  
+**Result:** HTTP requests to the web server were **blocked**.    
+---
 
+![Firewall Rule Deny](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Access%20a%20firewall%20and%20create%20a%20rule-09.jpg) 
 ---
 
 ## Task 5: Analyze Firewall Logs  
