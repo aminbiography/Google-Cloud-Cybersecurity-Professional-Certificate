@@ -1,0 +1,71 @@
+# Identify Vulnerabilities and Apply Remediation Techniques
+
+---
+
+## Project Title
+
+**Secure Web Application Testing and Vulnerability Remediation**
+
+---
+
+## Objectives
+
+- To identify security vulnerabilities in a web application before deployment.
+- To simulate a real-world attack scenario using **Cross-Site Scripting (XSS)**.
+- To scan the application with Google Cloud’s **Web Security Scanner**.
+- To remediate vulnerabilities through secure coding practices.
+- To verify the effectiveness of remediation by re-scanning.
+
+---
+
+## Project Description
+
+This project was conducted in a cloud environment to evaluate the security posture of a newly developed **Cymbal Bank corporate banking portal**.
+
+The project steps included:
+
+1. **Setup Environment**
+
+   - Launched a **Google Cloud VM** with a static IP address.
+   - Deployed a Python Flask-based application designed to demonstrate XSS vulnerabilities.
+
+2. **Simulate Exploitation**
+
+   - Injected a **malicious XSS payload** (`<script>alert('XSS')</script>`) to confirm the vulnerability.
+   - Verified that the application executed the injected script, proving exploitable weakness.
+
+3. **Vulnerability Scanning**
+
+   - Configured and executed **Google Cloud Web Security Scanner**.
+   - Scanner identified **Cross-Site Scripting vulnerabilities**, confirming the risk.
+
+4. **Remediation**
+
+   - Modified the **application code (app.py)** to **escape user-supplied input** instead of rendering it as raw HTML.
+   - Applied secure coding techniques to prevent malicious code execution.
+
+   Example of remediation:
+
+   ```python
+   output_string = "".join([html_escape_table.get(c, c) for c in input_string])
+   # output_string = input_string
+   ```
+
+5. **Validation**
+   - Re-ran the Web Security Scanner after remediation.
+   - Verified that **no vulnerabilities were found**, confirming successful remediation.
+
+---
+
+## Conclusion
+
+- This project highlighted the importance of **proactive vulnerability management**.
+- By simulating attacks, scanning, and applying fixes, we demonstrated how organizations can **mitigate risks before production deployment**.
+- Key takeaways:
+  - Early detection and remediation reduce costs and risks.
+  - Secure coding practices (e.g., escaping untrusted input) are essential.
+  - Regular scanning is critical to maintaining a **strong security posture**.
+
+---
+
+**Outcome:** The vulnerable application was successfully secured against **Cross-Site Scripting (XSS)**. This project showcased end-to-end **offensive testing and defensive remediation**, a core skill for cybersecurity and cloud security analysts.
