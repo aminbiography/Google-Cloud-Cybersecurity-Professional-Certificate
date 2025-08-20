@@ -29,15 +29,22 @@ The project steps included:
    - Launched a **Google Cloud VM** with a static IP address.
    - Deployed a Python Flask-based application designed to demonstrate XSS vulnerabilities.
 
+![Identify vulnerabilities and remediation techniques](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Identify%20vulnerabilities%20and%20remediation%20techniques-01.png?raw=true)
+
+
 2. **Simulate Exploitation**
 
    - Injected a **malicious XSS payload** (`<script>alert('XSS')</script>`) to confirm the vulnerability.
    - Verified that the application executed the injected script, proving exploitable weakness.
 
+![Identify vulnerabilities and remediation techniques](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Identify%20vulnerabilities%20and%20remediation%20techniques-02.png)
+
 3. **Vulnerability Scanning**
 
    - Configured and executed **Google Cloud Web Security Scanner**.
    - Scanner identified **Cross-Site Scripting vulnerabilities**, confirming the risk.
+
+![Identify vulnerabilities and remediation techniques](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Identify%20vulnerabilities%20and%20remediation%20techniques-03.png)
 
 4. **Remediation**
 
@@ -51,9 +58,15 @@ The project steps included:
    # output_string = input_string
    ```
 
+![Identify vulnerabilities and remediation techniques](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Identify%20vulnerabilities%20and%20remediation%20techniques-04.png)
+
+![Identify vulnerabilities and remediation techniques](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Identify%20vulnerabilities%20and%20remediation%20techniques-05.png)
+
 5. **Validation**
    - Re-ran the Web Security Scanner after remediation.
    - Verified that **no vulnerabilities were found**, confirming successful remediation.
+
+![Identify vulnerabilities and remediation techniques](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Identify%20vulnerabilities%20and%20remediation%20techniques-06.png)
 
 ---
 
