@@ -43,7 +43,7 @@ Your task: Remediate findings reported by the **Security Command Center (SCC)** 
 - **BUCKET_LOGGING_DISABLED** → Logging disabled (Low risk ).  
 
 **Screenshot Example**  
-![Findings in SCC](d6a98599-ad85-4346-84da-a7a3d675e49f.png)  
+![Findings in SCC]([d6a98599-ad85-4346-84da-a7a3d675e49f.png](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Use%20reports%20to%20remediate%20findings-01.png))  
 
 ---
 
@@ -55,13 +55,14 @@ Your task: Remediate findings reported by the **Security Command Center (SCC)** 
 - Remove **allUsers**.  
 
 **Screenshot**  
-![Remove public access](faea252d-4c8e-46f8-ac00-cf6579da23a5.png)  
+![Remove public access](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Use%20reports%20to%20remediate%20findings-02.png)  
 
 ### 2. Enforce Uniform Access Control  
 - In the **Access control tile**, click: **Switch to uniform** → Save.  
 
 **Screenshot**  
-![Switch to uniform access](16241cc1-b2b4-4f08-b3c7-a6c69a162849.png)  
+![Switch to uniform access](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Use%20reports%20to%20remediate%20findings-03.png)  
+
 
 ### 3. Verify Remediation  
 - Return to **Security → Compliance → CIS GCP Foundation 2.0 Report**.  
@@ -70,8 +71,8 @@ Your task: Remediate findings reported by the **Security Command Center (SCC)** 
   - *Bucket policy only disabled* = **0**  
 
 **Compliance Screenshot**  
-![Compliance status](d8666305-921f-459b-80c4-b0575f4727d7.png)  
-![Compliance details](dea1dccd-ca43-45a6-b47c-179b989f235a.png)  
+![Compliance status](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Use%20reports%20to%20remediate%20findings-04.png)  
+![Compliance details](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Use%20reports%20to%20remediate%20findings-05.png)  
 
 ---
 
