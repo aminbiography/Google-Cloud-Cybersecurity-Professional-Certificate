@@ -75,7 +75,7 @@ Your task: Remediate findings reported by the **Security Command Center (SCC)** 
 
 ---
 
-## 🏁 Conclusion  
+## Conclusion  
 Identified and prioritized threats using **Security Command Center (SCC)**.  
 Remediated:  
 - Public bucket ACL issue.  
