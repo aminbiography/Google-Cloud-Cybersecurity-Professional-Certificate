@@ -44,6 +44,16 @@ Steps performed:
 
 **Result:** The symmetric key was ready to encrypt and decrypt sensitive data efficiently.  
 
+![Symmetric vs Asymmetric Keys](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Create%20symmetric%20and%20asymmetric%20keys-01.jpg?raw=true)
+
+![Symmetric vs Asymmetric Keys](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Create%20symmetric%20and%20asymmetric%20keys-03.jpg)
+
+![Symmetric vs Asymmetric Keys](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Create%20symmetric%20and%20asymmetric%20keys-04.jpg)
+
+![Symmetric vs Asymmetric Keys](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Create%20symmetric%20and%20asymmetric%20keys-05.jpg)
+
+![Symmetric vs Asymmetric Keys]()
+
 ---
 
 ## Task 2: Create an Asymmetric Key  
@@ -57,6 +67,16 @@ Steps performed:
 **Result:** The asymmetric key pair was successfully created.  
 - **Private key:** Used for decryption or signing.  
 - **Public key:** Used for encryption or signature verification.  
+
+![Symmetric vs Asymmetric Keys](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Create%20symmetric%20and%20asymmetric%20keys-06.jpg)
+
+![Symmetric vs Asymmetric Keys](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Create%20symmetric%20and%20asymmetric%20keys-07.jpg)
+
+![Symmetric vs Asymmetric Keys](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Create%20symmetric%20and%20asymmetric%20keys-08.jpg)
+
+![Symmetric vs Asymmetric Keys](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Create%20symmetric%20and%20asymmetric%20keys-09.jpg)
+
+![Symmetric vs Asymmetric Keys](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Create%20symmetric%20and%20asymmetric%20keys-10.jpg)
 
 ---
 
