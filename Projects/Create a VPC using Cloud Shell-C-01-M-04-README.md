@@ -41,6 +41,8 @@
 - **Result:** Confirmed student account and project ID.  
 
 ![Auth and Project Config](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Create%20a%20VPC%20using%20Cloud%20Shell-01.png)  
+
+
 ![Project Config](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Create%20a%20VPC%20using%20Cloud%20Shell-02.png)  
 
 ---
