@@ -1,4 +1,4 @@
-# Project Title: Securing Cloud Resources with Firewall Rules  
+# Access a firewall and create a rule
 
 ---
 
@@ -46,7 +46,7 @@ This environment allowed me to test both permitted and denied traffic scenarios.
 
 **Result:** The server was now reachable via browser (HTTP) and via SSH for administrative access.  
 
-![Project Firewall Snip](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Access%20a%20firewall%20and%20create%20a%20rule-01.jpg?raw=true)
+![Firewall Rule Creation](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Access%20a%20firewall%20and%20create%20a%20rule-01.jpg?raw=true)
 
 
 ---
