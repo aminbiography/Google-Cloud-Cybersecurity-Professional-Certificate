@@ -60,8 +60,6 @@ The project steps included:
 
 ![Identify vulnerabilities and remediation techniques](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Identify%20vulnerabilities%20and%20remediation%20techniques-04.png)
 
-![Identify vulnerabilities and remediation techniques](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Identify%20vulnerabilities%20and%20remediation%20techniques-05.png)
-
 5. **Validation**
    - Re-ran the Web Security Scanner after remediation.
    - Verified that **no vulnerabilities were found**, confirming successful remediation.
