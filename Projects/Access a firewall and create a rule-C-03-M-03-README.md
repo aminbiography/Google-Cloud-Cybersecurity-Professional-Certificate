@@ -93,7 +93,9 @@ Confirmed that traffic was allowed due to the **allow-http-ssh** firewall rule.
 
 **Result:** HTTP requests to the web server were **blocked**.    
 
-![Firewall Rule Deny](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Access%20a%20firewall%20and%20create%20a%20rule-09.jpg?raw=true)
+![Firewall Rule Deny](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Access%20a%20firewall%20and%20create%20a%20rule-08.jpg)
+
+![Firewall Rule Deny](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Access%20a%20firewall%20and%20create%20a%20rule-09.jpg)
 
 ---
 
