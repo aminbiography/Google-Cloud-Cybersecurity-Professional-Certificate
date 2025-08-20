@@ -61,6 +61,8 @@ This environment allowed me to test both permitted and denied traffic scenarios.
 - Confirmed it displayed the Apache default page.  
 - Captured my **client IP address** to later trace logs.  
 
+![Firewall Rule Creation](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Access%20a%20firewall%20and%20create%20a%20rule-05.jpg)
+
 ---
 
 ## Task 3: Analyze Flow Logs  
