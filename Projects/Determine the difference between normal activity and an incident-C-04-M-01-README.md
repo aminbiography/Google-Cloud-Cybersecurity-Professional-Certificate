@@ -1,7 +1,5 @@
 # Determine the Difference Between Normal Activity and an Incident
 
-This guide presents a structured lab activity with text explanations **and images** in the right positions to illustrate each step. 
-
 ---
 
 ## Project Objective
