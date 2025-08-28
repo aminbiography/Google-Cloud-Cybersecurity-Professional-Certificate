@@ -15,9 +15,9 @@ The objective of this project is to **learn how to differentiate between normal 
 ---
 
 ## Activity Overview
-Event Threat Detection is one of Security Command Center's (SCC) services. It continuously monitors Google Cloud logs for potential threats and generates findings. In this lab, you’ll analyze findings and examine related logs.
+Event Threat Detection is one of Security Command Center's (SCC) services. It continuously monitors Google Cloud logs for potential threats and generates findings. In this lab, I’ll analyze findings and examine related logs.
 
-![Cloud Overview](Determine%20the%20difference%20between%20normal%20activity%20and%20an%20incident-01.jpg)
+![Cloud Overview](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Determine%20the%20difference%20between%20normal%20activity%20and%20an%20incident-01.jpg)
 
 ---
 
@@ -34,7 +34,7 @@ Event Threat Detection is one of Security Command Center's (SCC) services. It co
 - Grant **Project Owner** rights to: `bad.actor.demo@gmail.com`.
 - This will trigger an **Event Threat Detection finding**.
 
-![IAM Permissions with external user](Determine%20the%20difference%20between%20normal%20activity%20and%20an%20incident-02.jpg)
+![IAM Permissions with external user](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Determine%20the%20difference%20between%20normal%20activity%20and%20an%20incident-02.jpg)
 
 Notes:
 - **Users** (`qwiklabs.net`) with Owner roles = normal.
@@ -47,7 +47,7 @@ Notes:
 - Filter for **Persistence: IAM anomalous grant** findings.
 - Review the severity (High/Medium/Low).
 
-![SCC Findings](Determine%20the%20difference%20between%20normal%20activity%20and%20an%20incident-03.jpg)
+![SCC Findings](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Determine%20the%20difference%20between%20normal%20activity%20and%20an%20incident-03.jpg)
 
 ---
 
@@ -71,9 +71,9 @@ Notes:
   ```
 - Review details like `authenticationInfo`, target user, IP, and browser.
 
-![Logs Explorer general view](Determine%20the%20difference%20between%20normal%20activity%20and%20an%20incident-04.jpg)
+![Logs Explorer general view](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Determine%20the%20difference%20between%20normal%20activity%20and%20an%20incident-04.jpg)
 
-![Logs Explorer anomalous request](Determine%20the%20difference%20between%20normal%20activity%20and%20an%20incident-05.jpg)
+![Logs Explorer anomalous request](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Determine%20the%20difference%20between%20normal%20activity%20and%20an%20incident-05.jpg)
 
 ---
 
@@ -82,12 +82,12 @@ Notes:
 - Remove the **Project Owner** role from `bad.actor.demo@gmail.com`.
 - Save policy → malicious access revoked.
 
-![Remove malicious principal](Determine%20the%20difference%20between%20normal%20activity%20and%20an%20incident-06.jpg)
+![Remove malicious principal](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Determine%20the%20difference%20between%20normal%20activity%20and%20an%20incident-06.jpg)
 
 ---
 
 ## Conclusion
-You practiced:
+I practiced:
 - Identifying **normal vs. malicious IAM activity**.
 - Investigating findings with **SCC**.
 - Querying and analyzing logs with **Cloud Logging**.
