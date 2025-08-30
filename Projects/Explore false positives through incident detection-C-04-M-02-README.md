@@ -39,6 +39,19 @@ Recreate a **false positive** in Google Cloud, **analyze the SCC finding**, and 
 ![Key Download](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Explore%20false%20positives%20through%20incident%20detection-04.jpg)  
   
 4. Open **Cloud Shell** → **More → Upload → Choose Files** → upload `test-account.json`
+***Service Account JSON Key (Truncated for Security)***
+```bash
+{
+  "type": "service_account",
+  "project_id": "qwiklabs-gcp-03-xxxx",
+  "private_key_id": "xxxx",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIB...<redacted>...\n-----END PRIVATE KEY-----\n",
+  "client_email": "test-account@qwiklabs-gcp-03-xxxx.iam.gserviceaccount.com",
+  "client_id": "105250026009672560799",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token"
+}
+```
 
 ![Key Uploaded in Cloud Shell](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Explore%20false%20positives%20through%20incident%20detection-05.jpg)  
 
@@ -100,6 +113,7 @@ gcloud projects add-iam-policy-binding $PROJECT_ID --member user:$STUDENT2 --rol
 4. Review **Summary**: severity, class, description, recommendations, and compliance.
 
 ![SCC Findings](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Explore%20false%20positives%20through%20incident%20detection-11.jpg)  
+
 ![SCC Findings](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Explore%20false%20positives%20through%20incident%20detection-12.jpg) 
 
 ---
