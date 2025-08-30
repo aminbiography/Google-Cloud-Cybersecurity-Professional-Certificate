@@ -125,6 +125,12 @@ This hands-on exercise provided practical experience in **cloud networking funda
 
 ---
 
+## Project Credit
+- **Lab Activity & Prepared By**: **Mohammad Aminul Islam** (Cloud Security Analyst).  
+- **Lab Source**: Google Cloud Security Command Center hands-on lab (Qwiklabs / Coursera)  
+- **Guidance & Framework**: Google Cloud documentation & Qwiklabs instructions  
+- **Copyright**: © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. Other names may be trademarks of their respective companies.  
+
 ## Key Takeaways  
 1. Use **custom VPCs** for more control over subnet configurations.  
 2. Always **verify created networks and subnets** using `gcloud` commands.  
