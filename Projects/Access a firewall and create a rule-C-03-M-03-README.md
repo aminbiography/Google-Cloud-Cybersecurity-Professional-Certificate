@@ -135,3 +135,8 @@ This project strengthened my knowledge of **cloud security fundamentals**, espec
 
 ---
 
+## Project Credit
+- **Lab Activity & Prepared By**: **Mohammad Aminul Islam** (Cloud Security Analyst).  
+- **Lab Source**: Google Cloud Security Command Center hands-on lab (Qwiklabs / Coursera)  
+- **Guidance & Framework**: Google Cloud documentation & Qwiklabs instructions  
+- **Copyright**: © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. Other names may be trademarks of their respective companies.  
