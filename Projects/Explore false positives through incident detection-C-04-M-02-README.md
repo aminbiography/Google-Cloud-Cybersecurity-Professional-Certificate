@@ -39,6 +39,8 @@ Recreate a **false positive** in Google Cloud, **analyze the SCC finding**, and 
 ![Key Download](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Explore%20false%20positives%20through%20incident%20detection-04.jpg)  
   
 4. Open **Cloud Shell** → **More → Upload → Choose Files** → upload `test-account.json`
+
+
 ***Service Account JSON Key (Truncated for Security)***
 ```bash
 {
@@ -53,7 +55,9 @@ Recreate a **false positive** in Google Cloud, **analyze the SCC finding**, and 
 }
 ```
 
+
 ![Key Uploaded in Cloud Shell](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Explore%20false%20positives%20through%20incident%20detection-05.jpg)  
+
 
 ![Key Uploaded in Cloud Shell](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Explore%20false%20positives%20through%20incident%20detection-06.jpg)  
 
