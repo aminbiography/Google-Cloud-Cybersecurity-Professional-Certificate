@@ -28,17 +28,17 @@ Recreate a **false positive** in Google Cloud, **analyze the SCC finding**, and 
 ---
 
 ### Step 2 - Create & Upload JSON Key
-1. On `test-account` → **Manage keys**
+##### 1. On `test-account` → **Manage keys**
 
 ![Key Created](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Explore%20false%20positives%20through%20incident%20detection-03.jpg)  
 
  
-2. **Add Key → Create new key → JSON → Create** (download JSON)
-3. **Rename locally** to `test-account.json` *(ensure the filename matches the commands below)*
+##### 2. **Add Key → Create new key → JSON → Create** (download JSON)
+##### 3. **Rename locally** to `test-account.json` *(ensure the filename matches the commands below)*
 
 ![Key Download](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Explore%20false%20positives%20through%20incident%20detection-04.jpg)  
   
-4. Open **Cloud Shell** → **More → Upload → Choose Files** → upload `test-account.json`
+##### 4. Open **Cloud Shell** → **More → Upload → Choose Files** → upload `test-account.json`
 
 
 ***Service Account JSON Key (Truncated for Security)***
@@ -61,7 +61,7 @@ Recreate a **false positive** in Google Cloud, **analyze the SCC finding**, and 
 
 ![Key Uploaded in Cloud Shell](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Explore%20false%20positives%20through%20incident%20detection-06.jpg)  
 
-5. Verify upload:
+##### 5. Verify upload:
 
 ```bash
 ls
