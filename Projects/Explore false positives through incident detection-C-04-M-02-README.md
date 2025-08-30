@@ -8,16 +8,16 @@ Recreate a **false positive** in Google Cloud, **analyze the SCC finding**, and 
 
 ---
 
-## Step-by-Step Project Description
+## Project Description
 
-### Step 0 — Setup & Lab Hygiene
+### Step 0 - Setup & Lab Hygiene
 - Confirmed access to Google Cloud Console and Cloud Shell.
 
 ![Setup/Incognito](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Explore%20false%20positives%20through%20incident%20detection-01.jpg)
 
 ---
 
-### Step 1 — Create a Service Account (username1)
+### Step 1 - Create a Service Account (username1)
 1. Console → **IAM & Admin → Service Accounts** → **+ Create Service Account**
 2. Name: `test-account` → **Create and Continue**
 3. Role: **Basic → Owner**
@@ -27,7 +27,7 @@ Recreate a **false positive** in Google Cloud, **analyze the SCC finding**, and 
 
 ---
 
-### Step 2 — Create & Upload JSON Key
+### Step 2 - Create & Upload JSON Key
 1. On `test-account` → **Manage keys**
 
 ![Key Created](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Explore%20false%20positives%20through%20incident%20detection-03.jpg)  
@@ -54,7 +54,7 @@ ls
 
 ---
 
-### Step 3 — Trigger the False Positive
+### Step 3 - Trigger the False Positive
 Configure environment variables and activate the service account with the key:
 
 ```bash
@@ -76,7 +76,7 @@ gcloud auth list
 
 ---
 
-### Step 4 — Grant Excessive Permissions to Second User
+### Step 4 - Grant Excessive Permissions to Second User
 Set the second user and bind an Editor role (used later to analyze/remediate):
 
 ```bash
@@ -86,14 +86,14 @@ gcloud projects add-iam-policy-binding $PROJECT_ID --member user:$STUDENT2 --rol
 
 ---
 
-### Step 5 — Sign In as Second User (username2)
+### Step 5 - Sign In as Second User (username2)
 - **Add account** in the console → sign in with **username2** credentials from the Lab panel.
 
 ![Policy Binding](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Explore%20false%20positives%20through%20incident%20detection-10.jpg)
 
 ---
 
-### Step 6 — View & Analyze the SCC Finding
+### Step 6 - View & Analyze the SCC Finding
 1. Console → **Security → Findings**
 2. **Quick filters → Category → User managed service account key**
 3. Open the **most recent** finding (by *Event time*).
@@ -104,7 +104,7 @@ gcloud projects add-iam-policy-binding $PROJECT_ID --member user:$STUDENT2 --rol
 
 ---
 
-### Step 7 — Remediate the Finding
+### Step 7 - Remediate the Finding
 1. Console → **IAM & Admin → Service Accounts**
 2. Open `test-account`
 3. **Keys** tab
@@ -114,7 +114,7 @@ gcloud projects add-iam-policy-binding $PROJECT_ID --member user:$STUDENT2 --rol
 
 ---
 
-### Step 8 — Verify Resolution
+### Step 8 - Verify Resolution
 - Return to **SCC → Findings** and refresh the query.
 - Confirm the **User managed service account key** finding is resolved/closed or no longer active.
 
