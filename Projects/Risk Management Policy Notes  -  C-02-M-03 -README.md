@@ -32,3 +32,12 @@ Implementing these policy updates strengthens the organization’s ability to id
 - Improve readiness for audits, compliance checks, and real-world threats
 
 Ongoing review and enforcement of these controls will ensure sustained risk mitigation and continued regulatory compliance in a dynamic threat landscape.
+
+---
+
+## Project Credit  
+- **Project Executed & Presented By**: **Mohammad Aminul Islam** (Cloud Security Analyst)  
+- **Project Source**: Google Cloud Security Command Center hands-on project (Coursera)  
+- **Guidance & Framework**: Google Cloud documentation & instructions  
+- **Copyright**: © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. Other names may be trademarks of their respective companies.  
+
