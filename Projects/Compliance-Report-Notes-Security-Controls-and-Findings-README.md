@@ -18,3 +18,12 @@
 - **IA-2 (MFA Not Enforced):** MFA is not enabled for multiple accounts. Enforce MFA across the organization.
 - **AC-3 (SQL No Root Password):** Databases must not allow root access without strong credentials. Apply strong password policies and restrict remote root login.
 
+---
+
+## Project Credit  
+- **Project Executed & Presented By**: **Mohammad Aminul Islam** (Cloud Security Analyst)  
+- **Project Source**: Google Cloud Security Command Center hands-on project (Coursera)  
+- **Guidance & Framework**: Google Cloud documentation & instructions  
+- **Copyright**: © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. Other names may be trademarks of their respective companies.  
+
+
