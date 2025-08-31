@@ -61,3 +61,11 @@ To assess the security of a staging environment container and provide actionable
 
 ## Conclusion
 While Cymbal Bank has taken the first step by using a trusted image source, critical improvements are needed in **patch management** and **access control** before deploying to production. Addressing these issues will significantly reduce the attack surface and improve the resilience of the bank’s containerized applications.
+
+---
+
+## Project Credit  
+- **Project Executed & Presented By**: **Mohammad Aminul Islam** (Cloud Security Analyst)  
+- **Project Source**: Google Cloud Security Command Center hands-on project (Coursera)  
+- **Guidance & Framework**: Google Cloud documentation & instructions  
+- **Copyright**: © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. Other names may be trademarks of their respective companies.  
