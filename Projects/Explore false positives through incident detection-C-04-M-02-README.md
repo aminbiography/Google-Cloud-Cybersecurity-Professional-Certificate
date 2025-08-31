@@ -174,8 +174,9 @@ gcloud projects add-iam-policy-binding $PROJECT_ID --member user:$STUDENT2 --rol
 
 ---
 
-## Project Credit
-- **Lab Activity & Prepared By**: **Mohammad Aminul Islam** (Cloud Security Analyst).  
-- **Lab Source**: Google Cloud Security Command Center hands-on lab (Qwiklabs / Coursera)  
+## Project Credit  
+- **Project Executed & Presented By**: **Mohammad Aminul Islam** (Cloud Security Analyst)  
+- **Project Source**: Google Cloud Security Command Center hands-on project (Qwiklabs / Coursera)  
 - **Guidance & Framework**: Google Cloud documentation & Qwiklabs instructions  
 - **Copyright**: © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. Other names may be trademarks of their respective companies.  
+
