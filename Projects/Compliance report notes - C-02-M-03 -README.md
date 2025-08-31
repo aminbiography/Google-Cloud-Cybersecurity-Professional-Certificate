@@ -48,3 +48,10 @@ The findings outlined in this report indicate several high-priority risks that m
 
 Ongoing monitoring and periodic audits are essential to ensuring these controls remain enforced and updated as the infrastructure evolves. A follow-up review is recommended post-remediation to verify the effectiveness of the changes.
 
+
+## Project Credit  
+- **Project Executed & Presented By**: **Mohammad Aminul Islam** (Cloud Security Analyst)  
+- **Project Source**: Google Cloud Security Command Center hands-on project (Coursera)  
+- **Guidance & Framework**: Google Cloud documentation & instructions  
+- **Copyright**: © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. Other names may be trademarks of their respective companies.  
+
