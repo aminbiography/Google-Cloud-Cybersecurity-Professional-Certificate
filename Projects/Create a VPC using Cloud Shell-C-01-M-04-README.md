@@ -135,4 +135,13 @@ This hands-on exercise provided practical experience in **cloud networking funda
 1. Use **custom VPCs** for more control over subnet configurations.  
 2. Always **verify created networks and subnets** using `gcloud` commands.  
 3. Segmentation with **subnets** improves security, performance, and organization.  
-4. Test environments are critical for **validating network security** before production rollout.  
+4. Test environments are critical for **validating network security** before production rollout.
+
+---
+
+## Project Credit  
+- **Project Executed & Presented By**: **Mohammad Aminul Islam** (Cloud Security Analyst)  
+- **Project Source**: Google Cloud Security Command Center hands-on project (Qwiklabs / Coursera)  
+- **Guidance & Framework**: Google Cloud documentation & Qwiklabs instructions  
+- **Copyright**: © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. Other names may be trademarks of their respective companies.  
+
