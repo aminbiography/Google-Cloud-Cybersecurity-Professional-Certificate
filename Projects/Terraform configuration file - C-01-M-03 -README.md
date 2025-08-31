@@ -89,3 +89,11 @@ For production environments, consider adding:
 - Role-based access control (RBAC) for sensitive resources
 
 This configuration is flexible and extensible—ready to grow with your project needs.
+
+---
+
+## Project Credit  
+- **Project Executed & Presented By**: **Mohammad Aminul Islam** (Cloud Security Analyst)  
+- **Project Source**: Google Cloud Security Command Center hands-on project (Coursera)  
+- **Guidance & Framework**: Google Cloud documentation & instructions  
+- **Copyright**: © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. Other names may be trademarks of their respective companies.  
