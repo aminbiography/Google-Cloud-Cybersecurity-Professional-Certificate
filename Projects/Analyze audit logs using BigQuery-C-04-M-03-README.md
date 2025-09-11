@@ -1,4 +1,4 @@
-# Project Title: **Analyze Google Cloud Audit Logs with BigQuery**  
+# Project Title: **Analyze Cloud Audit Logs with BigQuery**  
 
 ---
 
