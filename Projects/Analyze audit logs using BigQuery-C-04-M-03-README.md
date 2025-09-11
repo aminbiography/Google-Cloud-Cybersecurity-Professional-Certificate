@@ -62,7 +62,8 @@ Next, I exported logs into BigQuery:
 logName = ("projects/PROJECT_ID/logs/cloudaudit.googleapis.com%2Factivity")
 ```
 
-![Audit Log](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Analyze%20audit%20logs%20using%20BigQuery-02.jpg)
+![Account Activity](https://raw.githubusercontent.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/main/bar-graph-chart-image/Analyze%20audit%20logs%20using%20BigQuery-02.jpg)
+
 
 From this point onward, new logs would automatically export to BigQuery.
 
@@ -82,7 +83,7 @@ gcloud storage rm --recursive gs://$DEVSHELL_PROJECT_ID
 gcloud storage rm --recursive gs://$DEVSHELL_PROJECT_ID-test
 ```
 
-![More Activity (User 1)](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Analyze%20audit%20logs%20using%20BigQuery-03.jpg)
+![Account Activity](https://raw.githubusercontent.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/main/bar-graph-chart-image/Analyze%20audit%20logs%20using%20BigQuery-03.jpg)
 
 These actions ensured more log entries for analysis.
 
@@ -108,7 +109,7 @@ protoPayload.serviceName="storage.googleapis.com"
 protoPayload.methodName="storage.buckets.delete"
 ```
 
-![Logs Explorer](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Analyze%20audit%20logs%20using%20BigQuery-04.jpg)
+![Account Activity](https://raw.githubusercontent.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/main/bar-graph-chart-image/Analyze%20audit%20logs%20using%20BigQuery-04.jpg)
 
 This clearly showed which account deleted the buckets.
 
@@ -136,7 +137,7 @@ ORDER BY timestamp, resource.labels.instance_id
 LIMIT 1000;
 ```
 
-![VM deletions](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Analyze%20audit%20logs%20using%20BigQuery-05.jpg)
+![Account Activity](https://raw.githubusercontent.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/main/bar-graph-chart-image/Analyze%20audit%20logs%20using%20BigQuery-05.jpg)
 
 **Query 2 — Bucket deletions (last 7 days):**
 ```sql
@@ -154,7 +155,7 @@ ORDER BY timestamp
 LIMIT 1000;
 ```
 
-![Bucket deletions](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Analyze%20audit%20logs%20using%20BigQuery-06.jpg)
+![Account Activity](https://raw.githubusercontent.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/main/bar-graph-chart-image/Analyze%20audit%20logs%20using%20BigQuery-06.jpg)
 
 These confirmed deletions made by User 1.
 
