@@ -4,12 +4,13 @@
 
 ## Project Scenario
 
-On October 12, 2023, Cymbal Bank experienced its first severe phishing
+- On October 12, 2023, Cymbal Bank experienced its first severe phishing
 attempt since adopting cloud services.\
 An employee received a phishing email disguised as an authentication
 request, clicked the malicious link, and submitted credentials into a
 fake form.\
-The attacker immediately used the stolen credentials to access multiple
+
+- The attacker immediately used the stolen credentials to access multiple
 applications, triggering alerts and suspicious activity logs.\
 This scenario highlights the speed at which phishing incidents escalate
 and the importance of effective detection, response, and prevention
