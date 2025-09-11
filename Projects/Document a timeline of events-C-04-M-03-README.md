@@ -60,6 +60,8 @@ walk-through** of the incident:
     into **four separate applications**. Suspicious activities spike
     across multiple platforms, confirming unauthorized access.
 
+![Timeline of Events](https://raw.githubusercontent.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/main/bar-graph-chart-image/Document%20a%20timeline%20of%20events.jpg)
+
 This **five-minute chain of events** illustrates how quickly a phishing
 attack can escalate from a single email to widespread unauthorized
 access.
