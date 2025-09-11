@@ -13,7 +13,7 @@ The main goals are:
 
 ## Scenario: Cymbal Bank
 Cymbal Bank had migrated to a hybrid cloud environment. Shortly after, a **high-severity alert** flagged unauthorized access to resources.  
-I shadowed an incident responder, Hannah, to understand the investigation process. Two accounts were used:
+I shadowed a senior Incident Responder to understand the investigation process. Two accounts were used:
 - **User 1**: Simulated the malicious activity.
 - **User 2**: Investigated the logs.
 
