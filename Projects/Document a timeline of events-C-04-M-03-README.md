@@ -25,35 +25,23 @@ The objective of this project is to document and visually present the timeline o
 On **October 12, 2023**, Cymbal Bank faced its first severe phishing attempt after adopting cloud services. The attack unfolded rapidly, with every minute escalating the risk. Below is a **step-by-step visual walk-through** of the incident:  
 
 - **11:45 a.m. — The Hook is Set**  
-  The user receives a phishing email. It appears authentic, disguised as a routine authentication request, but it contains a malicious link.  
-
 - **11:46 a.m. — The Click**  
-  The user, believing the email is legitimate, clicks on the phishing link. This action opens a fraudulent web page crafted to mimic a trusted login portal.  
-
 - **11:47 a.m. — The Credentials Stolen**  
-  The user submits their cloud login credentials into the fake form. Instantly, the attacker captures these details, gaining the keys to the bank's cloud services.  
-
 - **11:48 a.m. — The Alarm Sounds**  
-  Cymbal Bank's security systems detect an unusual login attempt: a new device connecting from an unfamiliar location. A high-severity alert is triggered, flagging potential compromise.  
-
 - **11:49 a.m. — The Breach Expands**  
-  Within seconds, the attacker leverages the stolen credentials to log into **four separate applications**. Suspicious activities spike across multiple platforms, confirming unauthorized access.  
 
 ![Timeline of Events](https://raw.githubusercontent.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/main/bar-graph-chart-image/Document%20a%20timeline%20of%20events.jpg)  
 
-This **five-minute chain of events** illustrates how quickly a phishing attack can escalate from a single email to widespread unauthorized access.  
-
 ------------------------------------------------------------------------  
 
-## Technical Findings 
+## Technical Findings  
 
 - **Compromised Account**: Employee ID - 0131, submitted credentials to a phishing page.  
 - **Unauthorized Access**: Attacker logged into 4 SaaS/cloud applications.  
 - **Source Indicators**:  
-  - Unrecognized device fingerprint.  
-  - Geolocation: outside corporate IP ranges.  
-  - Multiple failed login attempts prior to success.  
-- **Attack Vector**: Credential harvesting via phishing email + fake login page.  
+  - Unrecognized device fingerprint  
+  - Geolocation outside corporate IP ranges  
+  - Multiple failed login attempts prior to success  
 
 ------------------------------------------------------------------------  
 
@@ -71,30 +59,69 @@ This **five-minute chain of events** illustrates how quickly a phishing attack c
 
 ## Incident Response Actions  
 
-- **Detection**:  
-  - Real-time alert triggered by unusual login location/device.  
-  - Security Information and Event Management (SIEM) logged the abnormal activity.  
+- **Detection**: SIEM alert, unusual login location/device  
+- **Containment**: Disabled account, password reset, revoked sessions  
+- **Eradication & Recovery**: Removed OAuth tokens, log review, monitoring  
+- **Lessons Learned**: Phishing awareness gap, MFA not enforced  
 
-- **Containment**:  
-  - Disabled the compromised user account.  
-  - Forced password reset for affected user.  
-  - Revoked active sessions across all cloud applications.  
+------------------------------------------------------------------------  
 
-- **Eradication & Recovery**:  
-  - Removed attacker persistence by reviewing OAuth tokens and application sessions.  
-  - Conducted log analysis to confirm scope of access.  
-  - Monitored applications for residual activity.  
+## Indicators of Compromise (IOCs)  
 
-- **Lessons Learned**:  
-  - Identified lack of phishing awareness as primary cause.  
-  - Gaps in MFA enforcement allowed attacker to succeed with credentials alone.  
+| Type | Indicator | Description |  
+|------|-----------|-------------|  
+| IP Address | 185.203.112.45 | Source of suspicious login from Eastern Europe |  
+| Domain | auth-secure-login[.]com | Phishing site hosting fake login page |  
+| Email | noreply@securebank-alert[.]com | Sender address spoofed in phishing campaign |  
+| Device ID | WIN10-unknown-8743 | Unrecognized endpoint fingerprint |  
+
+*(Note: IOCs are anonymized for training purposes in this exercise.)*  
+
+------------------------------------------------------------------------  
+
+## Business Impact Assessment  
+
+- **Systems Affected**: Four cloud-based applications accessed (internal comms, HR portal, finance dashboard, document repository).  
+- **Data Accessed**: No confirmed exfiltration; attacker activity limited to login and session initiation.  
+- **Risk Level**: High — credentials compromised, potential lateral movement possible if not contained quickly.  
+- **Operational Impact**: Minimal downtime; remediation actions completed within 2 hours.  
+- **Reputation Risk**: Executive team notified; incident could undermine customer trust if repeated.  
+
+------------------------------------------------------------------------  
+
+## Compliance & Regulatory Considerations  
+
+- **GDPR**: No customer personal data confirmed as exfiltrated, but monitoring required to ensure compliance.  
+- **PCI DSS**: Payment systems not accessed; no cardholder data exposure.  
+- **Internal Policies**: Incident triggered mandatory review under Cymbal Bank’s Cloud Security Policy.  
+- **Future Obligation**: If similar incidents occur with confirmed data exposure, regulatory disclosure may be required within **72 hours**.  
+
+------------------------------------------------------------------------  
+
+## Strategic Recommendations  
+
+1. **Phishing Awareness Program**  
+   - Launch quarterly phishing simulation tests for employees.  
+   - Mandatory annual security awareness training.  
+
+2. **Zero Trust & MFA**  
+   - Enforce Multi-Factor Authentication across all applications.  
+   - Deploy Conditional Access policies (block logins from high-risk geolocations).  
+
+3. **Enhanced Monitoring**  
+   - Correlate phishing indicators in SIEM with endpoint and identity logs.  
+   - Implement UEBA (User and Entity Behavior Analytics) to detect abnormal patterns.  
+
+4. **Incident Playbooks**  
+   - Develop phishing-specific playbook integrated into SOAR platform.  
+   - Automate disabling of accounts when multiple suspicious events are detected.  
 
 ------------------------------------------------------------------------  
 
 ## Project References  
 
-- [Alert Ticket and Technical Findings](https://docs.google.com/document/d/1r7bVLey_-rMWyHXY0khA9rzvU9upQfXulaWydG_lyss/edit?usp=sharing) — Technical report containing timestamps, login details, user impact.  
-- [Google Slides Presentation](https://docs.google.com/presentation/d/1NH8kEaiHtzT2rJi8aIjweUn8bVkwb-xazIm7zJvAzvg/edit?usp=sharing) — Slide deck designed for executive stakeholders summarizing the incident.  
+- [Alert Ticket and Technical Findings](https://docs.google.com/document/d/1r7bVLey_-rMWyHXY0khA9rzvU9upQfXulaWydG_lyss/edit?usp=sharing)  
+- [Google Slides Presentation](https://docs.google.com/presentation/d/1NH8kEaiHtzT2rJi8aIjweUn8bVkwb-xazIm7zJvAzvg/edit?usp=sharing)  
 
 ------------------------------------------------------------------------  
 
@@ -103,10 +130,10 @@ This **five-minute chain of events** illustrates how quickly a phishing attack c
 This incident highlights the critical importance of **speed in detection and response**. The attacker successfully compromised credentials and accessed multiple systems within minutes.  
 
 **Key Lessons Learned:**  
-- **Employee vigilance** is the first line of defense — phishing awareness training must be strengthened.  
-- **Real-time monitoring** and automated alerts are essential to flag suspicious behavior immediately.  
-- **Multi-factor authentication (MFA)** should be enforced to prevent stolen credentials from being enough for account compromise.  
-- **Mapping attacks to MITRE ATT&CK** provides valuable insight into attacker tactics and enables better defense-in-depth strategies.  
+- Human error (phishing click) remains the weakest link.  
+- Real-time monitoring and MFA are critical safeguards.  
+- IOC tracking and ATT&CK mapping enhance detection/response maturity.  
+- Compliance and regulatory obligations must be factored into response strategy.  
 
 By applying these lessons, Cymbal Bank can improve resilience, protect customer data, and strengthen trust in its cloud security.  
 
