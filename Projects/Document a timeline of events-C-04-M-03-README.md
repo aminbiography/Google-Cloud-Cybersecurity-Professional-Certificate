@@ -1,4 +1,3 @@
-
 # Project Title: Phishing Incident Timeline Documentation  
 
 ------------------------------------------------------------------------  
