@@ -66,6 +66,11 @@ This **five-minute chain of events** illustrates how quickly a phishing
 attack can escalate from a single email to widespread unauthorized
 access.
 
+### Supporting Document  
+For more technical details, refer to the original investigation notes:  
+[Alert Ticket and Technical Findings](https://docs.google.com/document/d/1r7bVLey_-rMWyHXY0khA9rzvU9upQfXulaWydG_lyss/edit?usp=sharing)  
+*(This document contains timestamps, user impact, and technical findings that formed the basis of the incident timeline.)*  
+
 ------------------------------------------------------------------------
 
 ## Project Conclusion
