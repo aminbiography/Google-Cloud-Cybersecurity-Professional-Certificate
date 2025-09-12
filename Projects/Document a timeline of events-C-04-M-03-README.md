@@ -45,9 +45,9 @@ This **five-minute chain of events** illustrates how quickly a phishing attack c
 
 ------------------------------------------------------------------------  
 
-## Technical Findings (Advanced)  
+## Technical Findings 
 
-- **Compromised Account**: Lucas (employee) submitted credentials to a phishing page.  
+- **Compromised Account**: Employee ID - 0131, submitted credentials to a phishing page.  
 - **Unauthorized Access**: Attacker logged into 4 SaaS/cloud applications.  
 - **Source Indicators**:  
   - Unrecognized device fingerprint.  
