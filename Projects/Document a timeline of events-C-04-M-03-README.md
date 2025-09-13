@@ -70,7 +70,7 @@ On **October 12, 2023**, Cymbal Bank faced its first severe phishing attempt aft
 
 | Type | Indicator | Description |  
 |------|-----------|-------------|  
-| IP Address | 185.203.112.45 | Source of suspicious login from Eastern Europe |  
+| IP Address | 185.203.112.45 | Source of suspicious login from outside corporate IP ranges |  
 | Domain | auth-secure-login[.]com | Phishing site hosting fake login page |  
 | Email | noreply@securebank-alert[.]com | Sender address spoofed in phishing campaign |  
 | Device ID | WIN10-unknown-8743 | Unrecognized endpoint fingerprint |  
