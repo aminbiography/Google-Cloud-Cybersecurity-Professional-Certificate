@@ -76,19 +76,13 @@
 ---
 
 ## **Evidence Preservation**
+- Documentation: include **summary, timeline, actions, lessons**.  
 - Maintain **chain of custody** (timeline, integrity, ownership).  
 - Promptly collect evidence → cloud resources may be **ephemeral** or autoscaled.  
-- Use encryption, access management, and secure storage.  
-
----
-
-## **Cloud Incident Management**
+- Use encryption, access management, and secure storage.
 - Prioritization: ask **severity, impact, urgency**.  
-- Iteration: improve practices from past incidents.  
-- Action (SOAR): performs an **operation**.  
-- Documentation: include **summary, timeline, actions, lessons**.  
-- Preserve evidence: **logs, snapshots, access records**.  
-- SIEM: used in **identification** to aid detection & interpretation.  
+- **Iteration:** improve practices from past incidents.
+---
 
 ---
 
