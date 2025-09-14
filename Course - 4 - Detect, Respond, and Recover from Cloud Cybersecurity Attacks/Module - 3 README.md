@@ -1,96 +1,109 @@
 # Cloud Security Incident Response & Documentation
 
-## **Incident Response Process**
-- Three main phases:  
+## Incident Response Process
+- **Three main phases**:  
   1. **Identification** – recognize incidents with SIEM/SOAR alerts.  
   2. **Control** – limit damage, coordinate, communicate, restore operations.  
   3. **Iteration & Improvement** – learn from incidents, update processes, prevent recurrence.  
-- Tools: **SOAR** (automation, coordination) and **SIEM** (log collection, analysis).  
+- **Tools**:  
+  - **SOAR** – automation, orchestration, and coordination.  
+  - **SIEM** – log collection and analysis.  
 
 ---
 
-## **Incident Identification**
+## Incident Identification
 - Triage & prioritize alerts by **severity, impact, urgency**.  
-- Collect logs, traffic, user activity → assess scope & impact.  
-- Differentiate **true incidents vs. false positives** using:  
-  - **Analysis** (patterns, evidence).  
-  - **Verification** (system compromise check).  
+- Collect **logs, traffic, user activity** → assess scope & impact.  
+- Differentiate **true incidents vs. false positives** with:  
+  - **Analysis** – patterns, evidence, correlations.  
+  - **Verification** – confirm compromise through system checks.  
 
 ---
 
-## **Coordination & Communication**
-- Success relies on **clear roles**: Incident Manager, Lead Investigator, Communication Lead, Technical Specialists.  
-- Must-have tasks: set goals, define responsibilities, establish comms channels, track progress, keep stakeholders informed.  
-- High-quality communication: standardized terms, regular updates, secure channels.  
+## Coordination & Communication
+- Success relies on **clear roles**:  
+  - Incident Manager  
+  - Lead Investigator  
+  - Communication Lead  
+  - Technical Specialists  
+- **Must-have tasks**:  
+  - Set goals and objectives.  
+  - Define responsibilities.  
+  - Establish communication channels.  
+  - Track progress.  
+  - Keep stakeholders informed.  
+- **High-quality communication**: use standardized terms, give regular updates, and use secure channels.  
 
 ---
 
-## 4. **Documentation Fundamentals**
-- Types: **Incident reports, Evidence logs, Action plans, Playbooks, Logbooks**.  
-- Qualities: **Accurate, clear, consistent, timely**.  
-- Preserves evidence (file integrity, chain of custody).  
-- Enables legal investigations & organizational learning.  
-- Google Cloud tools (BigQuery, Chronicle SIEM) preserve evidence securely.  
+## Documentation Fundamentals
+- **Types**: Incident reports, Evidence logs, Action plans, Playbooks, Logbooks.  
+- **Qualities**: Accurate, clear, consistent, timely.  
+- **Purposes**:  
+  - Preserve evidence (file integrity, chain of custody).  
+  - Support legal investigations.  
+  - Improve organizational learning.  
+- **Google Cloud tools**: BigQuery, Chronicle SIEM → secure evidence preservation.  
 
 ---
 
-## **Documentation Elements**
+## Documentation Elements
 - **Incident summary** – overview, severity, context.  
 - **Timeline** – chronological order of events.  
-- **Technical findings** – logs, misconfigurations, IOCs.  
-- **Actions taken** – steps to mitigate.  
-- **Lessons learned** – review of what went well & failed.  
-- **Recommendations** – improvements for future.  
+- **Technical findings** – logs, misconfigurations, indicators of compromise.  
+- **Actions taken** – mitigation steps.  
+- **Lessons learned** – what worked, what failed.  
+- **Recommendations** – improvements for the future.  
 
 ---
 
-## **Playbooks & SOAR**
-- **Playbook**: reusable workflows for response (manual or automated).  
-- Trigger → Action → Flow.  
-- Benefits: saves time, ensures consistency, reduces risk, improves collaboration, supports compliance.  
-- Best practices: clarity, modularity, maintenance, reusability, test regularly.  
+## Playbooks & SOAR
+- **Playbook**: reusable workflows (manual or automated).  
+- **Structure**: Trigger → Action → Flow.  
+- **Benefits**:  
+  - Save time, ensure consistency.  
+  - Reduce risk, improve collaboration.  
+  - Support compliance.  
+- **Best practices**: clarity, modularity, regular updates, reusability, and frequent testing.  
 
 ---
 
-## **Automation vs. Orchestration**
-- **Automation** = task automation in a single system.  
-- **Orchestration** = coordination across multiple systems/platforms.  
-- Both are interdependent → automation forms part of orchestration processes.  
+## Automation vs. Orchestration
+- **Automation**: task automation within a single system.  
+- **Orchestration**: coordination across multiple systems/platforms.  
+- **Key point**: automation feeds into orchestration → they are interdependent.  
 
 ---
 
-## **Incident Response Partners**
-- **Chronicle SIEM/SOAR** – log ingestion, ML threat detection, automated playbooks.  
-- **Mandiant** – breach analytics, hunting, threat intelligence, managed defense.  
-- **VirusTotal** – enrich alerts with malware/IOC data.  
-- **MITRE ATT&CK** – framework of tactics/techniques to model attacker behavior.  
+## Incident Response Partners
+- **Chronicle SIEM/SOAR** – log ingestion, ML-based detection, automated playbooks.  
+- **Mandiant** – breach analytics, threat hunting, managed defense, enriched threat intelligence.  
+- **VirusTotal** – malware and IOC enrichment for detection & triage.  
+- **MITRE ATT&CK** – framework of attacker tactics and techniques.  
 
 ---
 
-## **Logs, Queries, and BigQuery**
-- **Cloud Audit Logs** track admin activity (who, when, where).  
-- **Log sinks** export logs (e.g., to BigQuery).  
-- **BigQuery** enables large-scale log analysis with SQL.  
-- Example use: detect deletions of VM instances in last 7 days.  
+## Logs, Queries, and BigQuery
+- **Cloud Audit Logs** – track administrative activity (who, when, where).  
+- **Log sinks** – export logs (e.g., to BigQuery).  
+- **BigQuery** – large-scale log analysis using SQL.  
+- **Example use**: detect VM deletions within the last 7 days.  
 
 ---
 
-## **Evidence Preservation**
-- Documentation: include **summary, timeline, actions, lessons**.  
-- Maintain **chain of custody** (timeline, integrity, ownership).  
-- Promptly collect evidence → cloud resources may be **ephemeral** or autoscaled.  
-- Use encryption, access management, and secure storage.
-- Prioritization: ask **severity, impact, urgency**.  
-- **Iteration:** improve practices from past incidents.
----
+## Evidence Preservation
+- **Documentation**: include summary, timeline, actions, lessons.  
+- **Chain of custody**: preserve integrity, timeline, and ownership of evidence.  
+- **Prompt evidence collection**: cloud resources may be **ephemeral** or autoscaled.  
+- **Security practices**: encryption, access management, and secure storage.  
+- **Prioritization**: assess severity, impact, urgency.  
+- **Iteration**: refine practices based on past incidents.  
 
 ---
 
-## **Terms and definitions** 
-- **Chain of custody:** The process of documenting and preserving evidence in a way that maintains its integrity, and establishes a clear timeline for handling
-- **Incident:** A violation or imminent threat of violation of computer security policies, acceptable use policies, or standard security practices
-- **Playbook:** A manual that provides details about any operational action
-- **Security information and event management (SIEM):** An application that collects and analyzes log data to monitor critical activities in an organization
-- **Security orchestration, automation, and response (SOAR):** A collection of applications, tools, and workflows that use automation to respond to security events
-
-
+## Terms & Definitions
+- **Chain of custody**: Documenting and preserving evidence while maintaining its integrity and a clear handling timeline.  
+- **Incident**: A violation or imminent threat of violation of security policies or practices.  
+- **Playbook**: A manual outlining operational actions and procedures.  
+- **SIEM (Security Information and Event Management)**: Collects and analyzes log data to monitor critical activities.  
+- **SOAR (Security Orchestration, Automation, and Response)**: A suite of applications, tools, and workflows that automate and coordinate responses to security events.  
