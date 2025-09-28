@@ -85,12 +85,6 @@ Incorporating MITRE ATT&CK into your BCDR and security operations ensures that r
 
 ---
 
-### Interview Tips for Cloud Security Roles
-
-* Discuss challenges with clear examples
-* End responses with **positive takeaways** (what you learned or improved)
-* Show ability to adapt, learn, and contribute to team success
-
 ### Glossary
 
 * **BC:** Maintain productivity during disruptions
