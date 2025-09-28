@@ -20,13 +20,15 @@ BCDR ensures operations continue during and after disasters. It includes:
 
 * **Business Continuity (BC):** Keep operations running
 * **Disaster Recovery (DR):** Restore critical systems after disruptions
-  Google Cloud provides BCDR tools like **Cloud Backup and DR, Cloud Storage, Cloud SQL, and Load Balancing** to ensure data safety and fast recovery.
+
+Google Cloud provides BCDR tools like **Cloud Backup and DR, Cloud Storage, Cloud SQL, and Load Balancing** to ensure data safety and fast recovery.
 
 ### BCDR Tools and Categories
 
 * **On-premises BCDR tools:** Installed and run on local infrastructure.
 * **Cloud-based BCDR tools:** Managed by cloud providers.
-  Common tools include backup and recovery utilities, automation tools (failover, failback, replication), and business continuity management solutions.
+
+Common tools include backup and recovery utilities, automation tools (failover, failback, replication), and business continuity management solutions.
 
 ### Disaster Recovery Planning (DRP)
 
@@ -43,7 +45,8 @@ Google Cloud provides tools like Cloud Storage, Backup and DR, Spanner, Bigtable
 
 * **RPO** defines how much data loss is acceptable
 * **RTO** defines acceptable downtime
-  DR Patterns: **Cold site, Warm site, Hot site** — each with different readiness levels.
+
+DR Patterns: **Cold site, Warm site, Hot site** — each with different readiness levels.
 
 ### BCDR Plans and Responsibilities
 
@@ -57,13 +60,38 @@ Effective BCDR requires coordination:
 
 Clear and timely communication is critical, especially when regular channels are down. **Out-of-band communications** should be prepared to ensure teams coordinate during disasters.
 
+---
+
+## MITRE ATT&CK Framework
+
+The **MITRE ATT&CK** framework is a globally recognized knowledge base of adversary tactics, techniques, and procedures (TTPs). It provides a structured way to understand how attackers operate, which helps organizations strengthen both **prevention** and **recovery** strategies.
+
+**Key Components:**
+
+* **Tactics:** High-level attacker goals (e.g., persistence, privilege escalation, lateral movement).
+* **Techniques:** Specific methods adversaries use to achieve their goals (e.g., credential dumping, phishing, remote service exploitation).
+* **Sub-techniques:** More granular breakdowns of how techniques are implemented.
+* **Mitigations:** Defensive strategies mapped to each technique.
+* **Detections:** Guidance on logging, monitoring, and alerting to identify malicious activity.
+
+**Why It Matters for Recovery & BCDR:**
+
+* Enhances **incident response playbooks** by aligning with real-world attack patterns.
+* Helps teams conduct **post-incident analysis**, identifying exploited vulnerabilities and mapping them to ATT&CK techniques.
+* Supports **gap analysis** for defenses and monitoring tools.
+* Strengthens **training and simulations**, ensuring teams practice realistic scenarios.
+
+Incorporating MITRE ATT&CK into your BCDR and security operations ensures that recovery is not only reactive but also **proactive and adaptive**, preparing organizations for future threats.
+
+---
+
 ### Interview Tips for Cloud Security Roles
 
 * Discuss challenges with clear examples
 * End responses with **positive takeaways** (what you learned or improved)
 * Show ability to adapt, learn, and contribute to team success
 
-### Glossary 
+### Glossary
 
 * **BC:** Maintain productivity during disruptions
 * **DR:** Restore infrastructure/systems after disasters
@@ -73,5 +101,5 @@ Clear and timely communication is critical, especially when regular channels are
 * **Replication:** Continuous data copying across locations
 * **SIEM, SOAR, SecOps:** Tools and processes to detect and respond to threats
 * **APT, IoC, MITRE ATT&CK, Pen Testing, Playbooks:** Key frameworks and practices
----
 
+---
