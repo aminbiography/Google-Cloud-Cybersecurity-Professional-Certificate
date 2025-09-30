@@ -1,4 +1,4 @@
-# Project Title: Application Load Balancer with Cloud Armor (GSP215) — End-to-End Build, Test, and Denylist
+# Project Title: Application Load Balancer with Cloud Armor (GSP215) - End-to-End Build, Test, and Denylist
 
 ## Project Objective
 
