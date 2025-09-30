@@ -128,7 +128,7 @@ curl http://$LB_IP
 
 ## Conclusion
 
-I stood up a **global external Application Load Balancer** with dual frontends, regional managed backends, and validated intelligent traffic steering under load. Then you **denylisted** the stress source using **Cloud Armor**, confirming protection at the edge with a 403 response and blocked siege traffic.
+I stood up a **global external Application Load Balancer** with dual frontends, regional managed backends, and validated intelligent traffic steering under load. Then I **denylisted** the stress source using **Cloud Armor**, confirming protection at the edge with a 403 response and blocked siege traffic.
 
 ---
 
