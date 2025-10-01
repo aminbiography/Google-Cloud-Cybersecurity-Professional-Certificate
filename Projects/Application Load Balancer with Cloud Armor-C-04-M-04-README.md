@@ -54,7 +54,7 @@ chmod +x AmeinBiography.sh
 ### 2) Create the stress-test VM (siege-vm) in europe-west1-c
 
 ```bash
-# set your project (auto from lab credentials)
+# set project (auto from lab credentials)
 PROJECT=$(gcloud config get-value project)
 
 # create the siege-vm instance in europe-west1-c
