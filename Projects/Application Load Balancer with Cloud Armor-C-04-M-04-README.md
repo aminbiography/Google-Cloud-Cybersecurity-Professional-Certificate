@@ -145,7 +145,7 @@ I stood up a **global external Application Load Balancer** with dual frontends, 
 ## Project Credit  
 - **Project Executed & Presented By**: **Mohammad Aminul Islam** (Cloud Security Analyst)  
 - **Project Source**: Google Cloud Security Command Center hands-on project (Qwiklabs / Coursera)
-- **Helper script author**: **@prateekrajput08** (GitHub) 
+- **Contributor script author**: **@prateekrajput08** (GitHub) 
 - **Guidance & Framework**: Google Cloud documentation & Qwiklabs instructions
 - **Technologies**: **Google Cloud Application Load Balancing**, **Cloud Armor**, **Compute Engine**, **Managed Instance Groups**, **Debian** (siege client)
 - **Copyright**: © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. Other names may be trademarks of their respective companies.  
