@@ -14,7 +14,7 @@ Build a global external **Application Load Balancer** with dual-stack (IPv4/IPv6
 
 ![Application Load Balancer with Cloud Armor](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Application%20Load%20Balancer%20with%20Cloud%20Armor-02.jpg)
 
-You used two equivalent ways to download the same script and run it under a custom name.
+Now used two equivalent ways to download the same script and run it under a custom name.
 
 ![Application Load Balancer with Cloud Armor](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Application%20Load%20Balancer%20with%20Cloud%20Armor-03.jpg)
 
