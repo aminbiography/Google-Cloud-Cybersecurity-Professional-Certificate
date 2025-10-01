@@ -133,8 +133,9 @@ I stood up a **global external Application Load Balancer** with dual frontends, 
 ---
 
 ## Project URL
+***Google-Cloud***
 
-***[Google-Cloud](https://www.cloudskillsboost.google/focuses/1232?parent=catalog)***
+***[Application Load Balancer with Cloud Armor](https://www.cloudskillsboost.google/focuses/1232?parent=catalog)***     
 
 ### Supporting Document  
 
