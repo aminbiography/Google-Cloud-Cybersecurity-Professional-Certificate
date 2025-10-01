@@ -138,12 +138,10 @@ I stood up a **global external Application Load Balancer** with dual frontends, 
 
 ### Supporting Document  
 
-* GitHub script (raw):
-  `https://raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Application%20Load%20Balancer%20with%20Cloud%20Armor/TechCode.sh`
+* GitHub script:
   ***[GitHub@prateekrajput08](https://raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Application%20Load%20Balancer%20with%20Cloud%20Armor/TechCode.sh)***
 * Repository:
 * ***[GitHub@prateekrajput08](https://github.com/prateekrajput08/Arcade-Google-Cloud-Labs)***
-  `https://github.com/prateekrajput08/Arcade-Google-Cloud-Labs`
 
 ---
 
