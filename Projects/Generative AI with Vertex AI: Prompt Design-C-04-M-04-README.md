@@ -68,7 +68,7 @@ MODEL_ID = "gemini-2.5-flash"
   * **One Task at a Time** → Prevent multi-task confusion.
   * **Include Examples** → Used few-shot prompts to improve accuracy.
 
-![Generative AI with Vertex AI – Prompt Design](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Generative%20AI%20with%20Vertex%20AI%20Prompt%20Design-03.jpg)
+![Generative AI with Vertex AI – Prompt Design](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Generative%20AI%20with%20Vertex%20AI%20Prompt%20Design-04.jpg)
 
 ---
 
