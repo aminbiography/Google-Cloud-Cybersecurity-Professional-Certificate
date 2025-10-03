@@ -40,7 +40,7 @@ This project was conducted using **Google Cloud Skills Boost Lab (GSP1151)** in 
 
 ```python
 import os
-PROJECT_ID = "<your-project-id>"   # anonymized
+PROJECT_ID = "qwiklabs-gcp-03-61304b3999d3"   # anonymized
 LOCATION = "us-central1"
 client = genai.Client(vertexai=True, project=PROJECT_ID, location=LOCATION)
 ```
