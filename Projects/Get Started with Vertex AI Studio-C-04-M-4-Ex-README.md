@@ -49,16 +49,44 @@ By the end of this project, you will have:
 
 ---
 
-### **Task 4 – Use Multimodal Prompts with Gemini**
+## **Task 4 – Use Multimodal Prompts with Gemini**
 
-* Created **“Timetable Image Analysis”** prompt.
-* Uploaded an image from Cloud Storage (timetable.png).
-* Used **Gemini’s multimodal capability** to:
+I created a prompt titled **“Timetable Image Analysis.”**
+In this task, I uploaded the **timetable.png** image from **Cloud Storage** and explored **Gemini’s multimodal capabilities** to analyze visual data along with text instructions.
 
-  * Describe the image.
-  * Extract structured flight data.
-  * Perform reasoning-based calculations (e.g., flights before 11:30 AM).
-* Adjusted **Temperature** to observe variations in style and precision.
+### **Prompt Instructions**
+
+```
+1. Provide a concise title for this image (under 5 words).
+2. Describe the image in one or two sentences.
+3. Extract all visible text from the image. Present the flight schedule as a clearly formatted list with columns for "Time" and "City".
+```
+
+### **Follow-up Prompt**
+
+```
+Based on the flight schedule shown in the image, what percentage of the listed flights depart before 11:30 AM? Show your calculation if possible.
+```
+
+### **Process and Observations**
+
+* Gemini successfully analyzed the timetable image, extracted readable flight data, and organized it into a clear table.
+* It also performed reasoning to calculate the percentage of flights departing before **11:30 AM**, providing step-by-step logic in its response.
+* I experimented with **Temperature** settings to observe output variations:
+
+  * At **0.2**, the responses were factual, structured, and concise.
+  * At **0.8**, the responses became more descriptive and creative in tone.
+
+### **Outcome**
+
+Through this exercise, I learned how to:
+
+* Combine **text and image inputs** in a single multimodal prompt.
+* Extract structured information from visual data.
+* Use reasoning-based queries for analytical tasks.
+* Adjust **model parameters** (like Temperature) to balance precision and creativity.
+
+This task demonstrated the powerful capabilities of **Gemini in Vertex AI Studio** for multimodal analysis and reasoning.
 
 ---
 
