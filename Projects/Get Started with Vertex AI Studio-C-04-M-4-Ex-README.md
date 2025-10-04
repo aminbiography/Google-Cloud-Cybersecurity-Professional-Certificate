@@ -35,6 +35,8 @@ By the end of this project, you will have:
 * Explored parameters like **Temperature**, **Top-P**, and **Output Token Limit** to improve accuracy.
 * Enhanced prompt structure for consistency and precision.
 
+![Get Started with Vertex AI Studio](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Get%20Started%20with%20Vertex%20AI%20Studio-02.jpg)  
+
 ---
 
 ### **Task 3 – Engineer and Manage Prompts**
