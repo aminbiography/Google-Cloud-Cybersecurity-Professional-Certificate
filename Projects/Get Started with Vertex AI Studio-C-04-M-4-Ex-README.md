@@ -21,16 +21,33 @@ By the end of this project, you will have:
 
 * Accessed **Vertex AI Studio** in the Google Cloud Console.
 
-![Get Started with Vertex AI Studio](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Get%20Started%20with%20Vertex%20AI%20Studio-01a.jpg)  
+![Get Started with Vertex AI Studio](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Get%20Started%20with%20Vertex%20AI%20Studio-01a.jpg)
 
 * Created the first prompt titled **“Insurance Risk Summary – Prototype.”**
-
-![Get Started with Vertex AI Studio](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Get%20Started%20with%20Vertex%20AI%20Studio-01b.jpg)  
-
 * Defined **System Instructions** for an AI assistant supporting underwriting tasks.
 * Entered client data (SafeHarbor Warehousing) to test summarization and risk identification.
 * Configured **Model: gemini-2.5-flash**, **Temperature: 0.2**, **Region: Global**.
-* Deployed the prompt as a **Cloud Run application** and verified functionality via a web interface.
+
+#### **Deploy as App (Cloud Run): Create App**
+
+1. Click **Code** (top-right) → **Deploy → Deploy as app**.
+2. If prompted, click **Enable Required APIs** (e.g., Cloud Build, Cloud Run).
+3. Check the **Acknowledgement** for publicly deploying your app.
+4. Click **Create App** to start the deployment.
+5. Watch the **Manage web app** dialog for status updates.
+
+#### **If deployment fails: Update App (retry)**
+
+* Wait ~**1 minute** for permissions/services to settle.
+* In the **Manage web app** dialog, click **Update app** → **Confirm**.
+* After it succeeds, click **Close**.
+
+![Get Started with Vertex AI Studio](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Get%20Started%20with%20Vertex%20AI%20Studio-01b.jpg)
+
+#### **Open and test the app**
+
+* Click **Code** again → **Open app**.
+* In the chatbot, send a test message (e.g., *Coastal Goods Delivery* scenario) to verify the deployed app uses your prompt logic.
 
 ---
 
@@ -41,7 +58,7 @@ By the end of this project, you will have:
 * Explored parameters like **Temperature**, **Top-P**, and **Output Token Limit** to improve accuracy.
 * Enhanced prompt structure for consistency and precision.
 
-![Get Started with Vertex AI Studio](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Get%20Started%20with%20Vertex%20AI%20Studio-02.jpg)  
+![Get Started with Vertex AI Studio](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Get%20Started%20with%20Vertex%20AI%20Studio-02.jpg)
 
 ---
 
@@ -130,12 +147,13 @@ Overall, the project showcases the power of **Gemini models** and **Google Cloud
 
 ---
 
-
 ## **Project Credit:**
+
 - **Project Executed & Presented By**: **Mohammad Aminul Islam** (Cloud Security Analyst)  
 - **Project Source**: Google Cloud Security Command Center hands-on project (Qwiklabs / Coursera)
 - **Platform:** Google Cloud Vertex AI Studio
 - **Guidance & Framework**: Google Cloud documentation & Qwiklabs instructions
 - **Models Used:** Gemini 2.5 Flash, Gemini 2.5 Pro, Imagen 4, Chirp 3
 - **Copyright**: © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. Other names may be trademarks of their respective companies.  
+
 ---
