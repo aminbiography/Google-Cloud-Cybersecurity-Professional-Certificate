@@ -24,6 +24,9 @@ By the end of this project, you will have:
 ![Get Started with Vertex AI Studio](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Get%20Started%20with%20Vertex%20AI%20Studio-01a.jpg)  
 
 * Created the first prompt titled **“Insurance Risk Summary – Prototype.”**
+
+![Get Started with Vertex AI Studio](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Get%20Started%20with%20Vertex%20AI%20Studio-01b.jpg)  
+
 * Defined **System Instructions** for an AI assistant supporting underwriting tasks.
 * Entered client data (SafeHarbor Warehousing) to test summarization and risk identification.
 * Configured **Model: gemini-2.5-flash**, **Temperature: 0.2**, **Region: Global**.
