@@ -80,7 +80,7 @@ By the end of this project, you will have:
 [Vertex AI Studio Overview](https://cloud.google.com/vertex-ai/docs/generative-ai/learn/overview)
 
 **Prompt Design Strategies:**
-[Prompt Engineering Guide – Google Cloud](https://cloud.google.com/vertex-ai/docs/generative-ai/prompt-engineering/overview)
+[Prompt Engineering Guide – Google Cloud](https://cloud.google.com/discover/what-is-prompt-engineering#prompt-engineering-overview)
 
 ---
 
