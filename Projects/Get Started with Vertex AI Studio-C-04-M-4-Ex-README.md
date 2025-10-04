@@ -21,7 +21,7 @@ By the end of this project, you will have:
 
 * Accessed **Vertex AI Studio** in the Google Cloud Console.
 
-![Get Started with Vertex AI Studio](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Get%20Started%20with%20Vertex%20AI%20Studio-01a.jpg)
+![Get Started with Vertex AI Studio](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Get%20Started%20with%20Vertex%20AI%20Studio-01-A.jpg)
 
 * Created the first prompt titled **“Insurance Risk Summary – Prototype.”**
 * Defined **System Instructions** for an AI assistant supporting underwriting tasks.
@@ -42,12 +42,14 @@ By the end of this project, you will have:
 * In the **Manage web app** dialog, click **Update app** → **Confirm**.
 * After it succeeds, click **Close**.
 
-![Get Started with Vertex AI Studio](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Get%20Started%20with%20Vertex%20AI%20Studio-01b.jpg)
+![Get Started with Vertex AI Studio](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Get%20Started%20with%20Vertex%20AI%20Studio-01-B.jpg)
 
 #### **Open and test the app**
 
 * Click **Code** again → **Open app**.
 * In the chatbot, send a test message (e.g., *Coastal Goods Delivery* scenario) to verify the deployed app uses your prompt logic.
+
+![Get Started with Vertex AI Studio](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Get%20Started%20with%20Vertex%20AI%20Studio-01-C.jpg)
 
 ---
 
@@ -71,6 +73,8 @@ By the end of this project, you will have:
   * *Concise vs. Detailed outputs*
   * *Flash vs. Pro model behavior*
 * Observed how **Gemini 2.5 Pro** produced more reasoning-based, guideline-aligned responses compared to **Gemini 2.5 Flash**.
+
+![Get Started with Vertex AI Studio](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Get%20Started%20with%20Vertex%20AI%20Studio-03.jpg)
 
 ---
 
@@ -121,6 +125,9 @@ This task demonstrated the powerful capabilities of **Gemini in Vertex AI Studio
 * Created a detailed prompt for generating a **photo-realistic image of a honeybee collecting pollen**.
 * Experimented with **inpainting**, **outpainting**, and **SynthID watermark verification**.
 * Optionally, used **Chirp** for voice generation — converting text to high-quality AI speech.
+
+
+![Get Started with Vertex AI Studio](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Get%20Started%20with%20Vertex%20AI%20Studio-05.jpg)
 
 ---
 
