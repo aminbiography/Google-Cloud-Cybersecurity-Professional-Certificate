@@ -19,6 +19,8 @@ This project mirrors a real security workflow for controlled, auditable access.
 
 ## 1) Sign in to Google Cloud Console 
 
+![Create a role in Google Cloud IAM](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Create%20a%20role%20in%20Google%20Cloud%20IAM-01.png)
+
 ---
 
 ## 2) Create a Custom IAM Role (Least Privilege)
@@ -44,6 +46,8 @@ This project mirrors a real security workflow for controlled, auditable access.
 
 **Checkpoint:** The `Audit Team Reviewer` role appears in the Roles list.
 
+![Create a role in Google Cloud IAM](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Create%20a%20role%20in%20Google%20Cloud%20IAM-02.png)
+
 ---
 
 ## 3) Grant the Custom Role to the Audit User
@@ -57,6 +61,8 @@ This project mirrors a real security workflow for controlled, auditable access.
 5. Click **Save**.
 
 **Checkpoint:** The principal (Username 2) now shows the **Audit Team Reviewer** role.
+
+![Create a role in Google Cloud IAM](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Create%20a%20role%20in%20Google%20Cloud%20IAM-03.png)
 
 ---
 
@@ -74,6 +80,8 @@ This project mirrors a real security workflow for controlled, auditable access.
 **Expected Result:** Shows **Audit Team Reviewer** granted to the user.
 (If a multiple-choice check is asked later, the correct choice is **Audit Team Reviewer**.)
 
+![Create a role in Google Cloud IAM](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Create%20a%20role%20in%20Google%20Cloud%20IAM-04.png)
+
 ---
 
 # Project Conclussion
@@ -88,37 +96,10 @@ This pattern is foundational for securing production environments: explicitly gr
 
 ---
 
-# Project Images
-
-Use the following screenshot plan for documentation/evidence:
-
-1. **Roles List (After Creation)**
-
-   * Caption: *Custom role “Audit Team Reviewer” visible in Roles list.*
-   * Where: IAM & Admin → Roles.
-
-2. **Create Role Dialog (Filled)**
-
-   * Caption: *Title, Description, ID, and GA launch stage configured.*
-
-3. **Add Permissions Dialog**
-
-   * Caption: *Firebase Realtime Database Viewer selected; extra list permissions added.*
-
-4. **Grant Access Dialog**
-
-   * Caption: *Username 2 added; role “Audit Team Reviewer (Custom)” selected.*
-
-5. **Policy Analyzer Results**
-
-   * Caption: *Query showing “Audit Team Reviewer” granted to Username 2.*
-
-*(Redact usernames if needed in public docs.)*
-
----
-
 ## Project Credit  
 - **Project Executed & Presented By**: **Mohammad Aminul Islam** (Cloud Security Analyst)  
 - **Project Source**: Google Cloud Security Command Center hands-on project (Qwiklabs / Coursera)  
 - **Guidance & Framework**: Google Cloud documentation & Qwiklabs instructions  
 - **Copyright**: © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. Other names may be trademarks of their respective companies.  
+
+---
