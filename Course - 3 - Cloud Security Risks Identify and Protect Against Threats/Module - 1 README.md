@@ -1,4 +1,4 @@
-# Comprehensive Summary of Cloud Security and Access Control
+# Cloud Security and Access Control
 
 ## Cloud Security Foundations
 
