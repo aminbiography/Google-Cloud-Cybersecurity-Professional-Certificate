@@ -16,6 +16,8 @@ This project mirrors a real security workflow for controlled, auditable access.
 
 ## Project Description
 
+This project demonstrates practical implementation of Google Cloud IAM for secure access management. It walks through creating a custom least-privilege role, granting it to a specific user, and validating the assignment using Policy Analyzer. The lab replicates real-world cloud security workflows-especially for regulated industries that require audit-based access controls.
+
 
 ## 1) Sign in to Google Cloud Console 
 
