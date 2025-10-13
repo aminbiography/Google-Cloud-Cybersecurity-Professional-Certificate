@@ -105,10 +105,10 @@ Completing this module prepares for **entry-level roles** such as:
 
 ### **Key Takeaways**
 
-The Capstone Project consolidates all cloud cybersecurity concepts from the certificate.
-Gained experience in **incident response, remediation, and compliance**.
-A **portfolio-ready project** to showcase skills.
-Continuous learning and portfolio updates will help stay competitive and career-ready.
+- The Capstone Project consolidates all cloud cybersecurity concepts from the certificate.
+- Gained experience in **incident response, remediation, and compliance**.
+- A **portfolio-ready project** to showcase skills.
+- Continuous learning and portfolio updates will help stay competitive and career-ready.
 
 ---
 
