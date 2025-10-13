@@ -26,7 +26,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 ![Google Cloud Cybersecurity Professional Certificate on Coursera](https://coursera-certificate-images.s3.amazonaws.com/9CH6GVDJC4C4)
 
-![Google Cloud Security Certificate on Coursera](https://coursera.org/share/cdbc44188f640bbd830603f7f32476d9)
+![Google Cloud Security Certificate - Put It All Together: Prepare for a Cloud Security Analyst Job on Coursera](https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~ASM3SX6BCYEX/CERTIFICATE_LANDING_PAGE~ASM3SX6BCYEX.jpeg)
 
 ![Google Cloud Security Certificate on Coursera](https://coursera-certificate-images.s3.amazonaws.com/SAX1P15UMGR1)
 
