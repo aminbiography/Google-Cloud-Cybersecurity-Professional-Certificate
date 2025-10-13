@@ -7,6 +7,10 @@
 
 ---
 
+![Respond and recover from a data breach-Security Incident Report-Capstone Project-Final Report](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Respond%20and%20recover%20from%20a%20data%20breach-Security%20Incident%20Report-Capstone%20Project-Final%20Report.jpg)
+
+---
+
 ## **Project Scenario**
 
 Cymbal Retail, a cloud-based retail company, experienced a significant **data breach** involving unauthorized access to its Google Cloud environment. The attack targeted a compromised virtual machine (VM), **cc-app-01**, which had open RDP and SSH ports and lacked firewall logging. This misconfiguration allowed a malicious actor to infiltrate the system, escalate privileges, and exfiltrate sensitive customer payment data.
