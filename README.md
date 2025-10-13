@@ -22,6 +22,12 @@ The above copyright notice and this permission notice shall be included in all c
 **WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.**
 
 ---
+![Google Cloud Security Certificate on Coursera](https://images.credly.com/images/505080ad-3731-4b1d-98df-347655a45750/image.png)
+
+![Google Cloud Security Certificate on Coursera](https://coursera.org/share/5957325a6ec257af692ea3dfe0cb12a7)
+
+![Google Cloud Security Certificate on Coursera](https://coursera.org/share/cdbc44188f640bbd830603f7f32476d9)
+
 ![Google Cloud Security Certificate on Coursera](https://coursera-certificate-images.s3.amazonaws.com/SAX1P15UMGR1)
 
 ![Google Cloud Security Certificate on Coursera](https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~ZDK560Z98F5F/CERTIFICATE_LANDING_PAGE~ZDK560Z98F5F.jpeg)
