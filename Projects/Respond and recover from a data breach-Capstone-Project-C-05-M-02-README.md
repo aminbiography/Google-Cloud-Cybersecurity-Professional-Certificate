@@ -137,7 +137,7 @@ To identify, remediate, and verify the resolution of cloud security vulnerabilit
 
 ## **Project Conclusion:**
 
-By completing this project, I successfully identified and remediated the vulnerabilities that contributed to a simulated data breach in a Google Cloud environment. I restored compromised resources, secured Cloud Storage, hardened firewall configurations, and validated compliance. This project demonstrates foundational skills in **cloud incident response**, **vulnerability management**, and **compliance verification**.
+By completing this project, I successfully identified and remediated vulnerabilities that contributed to a simulated data breach in a Google Cloud environment. I restored compromised resources, secured Cloud Storage, strengthened firewall configurations, and verified compliance. This project highlights my core skills in **cloud incident response**, **vulnerability management**, and **compliance verification**.
 
 ---
 
