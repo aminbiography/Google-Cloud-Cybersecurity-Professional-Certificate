@@ -2,28 +2,41 @@
 
 ---
 
-## **Project Title** **Cymbal Retail Cloud Security Incident: Respond and Recover from a Data Breach**
+## **Project Title**
+
+### **Cymbal Retail Cloud Security Incident: Respond and Recover from a Data Breach**
+
+*A comprehensive review of Cymbal Retail’s cloud data breach and recovery response.*
 
 ---
 
-![Respond and recover from a data breach-Security Incident Report-Capstone Project-Final Report](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Respond%20and%20recover%20from%20a%20data%20breach-Security%20Incident%20Report-Capstone%20Project-Final%20Report.jpg)
+![Respond and recover from a data breach - Security Incident Report - Capstone Project - Final Report](https://github.com/aminbiography/Google-Cloud-Cybersecurity-Professional-Certificate/blob/main/bar-graph-chart-image/Respond%20and%20recover%20from%20a%20data%20breach-Security%20Incident%20Report-Capstone%20Project-Final%20Report.jpg)
 
 ---
 
 ## **Project Scenario**
 
-Cymbal Retail, a cloud-based retail company, experienced a significant **data breach** involving unauthorized access to its Google Cloud environment. The attack targeted a compromised virtual machine (VM), **cc-app-01**, which had open RDP and SSH ports and lacked firewall logging. This misconfiguration allowed a malicious actor to infiltrate the system, escalate privileges, and exfiltrate sensitive customer payment data.
+Cymbal Retail, a leading cloud-based retail organization, experienced a **major cloud security incident** involving unauthorized access to its **Google Cloud Platform (GCP)** infrastructure. The breach originated from a compromised virtual machine (VM) named **cc-app-01**, which had **open RDP and SSH ports** and **disabled firewall logging**. These misconfigurations created a vulnerable entry point for an external threat actor.
 
-The incident required immediate response efforts to contain the threat, eradicate the attacker’s presence, and restore secure cloud operations. Following recovery, Cymbal Retail focused on strengthening its cloud defenses and documenting the incident for lessons learned.
+The attacker exploited these weaknesses to gain unauthorized access, deploy malware, and escalate privileges by compromising a service account. The malicious actor then exfiltrated **sensitive customer payment information** through a publicly accessible Cloud Storage bucket.
+
+This incident required a coordinated response effort from the security operations team to **contain the attack, eradicate the malicious presence, recover critical systems**, and implement stronger preventative controls. Following remediation, Cymbal Retail conducted a comprehensive post-incident review to identify gaps, document findings, and improve its cloud security posture.
 
 ---
 
 ## **Project Description**
 
-This project demonstrates the **post-incident response phase** of the cloud security lifecycle, focusing on the actions taken to **respond, recover, and improve security posture** after a data breach.
+This capstone project focuses on the **post-incident phase of the cybersecurity incident response lifecycle**, emphasizing **response, recovery, and continuous improvement** following a data breach in a cloud environment.
 
-The report includes an **Executive Summary**, **Response and Remediation** actions, and **Recommendations** for future prevention.
-It draws upon forensic analysis, Google Cloud Security Command Center findings, and compliance metrics (ISO 27001, PCI DSS, NIST 800-53) to ensure a structured and compliant incident closure.
+The report documents:
+
+* The **Executive Summary** of the breach,
+* Detailed **Response and Remediation** measures, and
+* Strategic **Recommendations** for preventing similar incidents.
+
+It integrates findings from the **Google Cloud Security Command Center (SCC)**, forensic investigations, and compliance assessments (ISO 27001, NIST 800-53, PCI DSS 3.2.1) to provide a structured and evidence-based conclusion to the incident.
+
+This project demonstrates the application of professional **cloud incident handling standards** in accordance with the **NIST SP 800-61 Incident Response Framework** and **ISO/IEC 27035**.
 
 ---
 
@@ -36,18 +49,20 @@ It draws upon forensic analysis, Google Cloud Security Command Center findings, 
 
 ## **Executive Summary**
 
-Cymbal Retail experienced a **critical cloud security incident** when attackers exploited open RDP and SSH ports on VM **cc-app-01**, which lacked proper firewall controls and logging. The attacker gained unauthorized access, installed malware, and escalated privileges using a compromised service account.
+Cymbal Retail suffered a **high-severity cloud security breach** that compromised sensitive customer data within its Google Cloud infrastructure. The attack stemmed from a vulnerable virtual machine (**cc-app-01**) with exposed RDP and SSH ports and no active firewall logging. These weaknesses allowed a malicious actor to gain initial access, deploy malware, and escalate privileges via a compromised service account.
 
-Subsequent investigation revealed **data exfiltration** from a publicly accessible Cloud Storage bucket containing sensitive customer data, including credit card details.
+The attacker leveraged this access to target **BigQuery datasets** and a **publicly accessible Cloud Storage bucket**, through which **payment card and user information** were exfiltrated.
 
-The most impacted cloud resources included:
+Key resources affected included:
 
 * **Compute Engine (cc-app-01)**
-* **Firewall configurations**
+* **Firewall rules and network configurations**
 * **Cloud Storage buckets**
-* **BigQuery datasets**
+* **BigQuery services**
 
-Key compliance gaps were found in **access control**, **logging**, and **configuration management**. The incident underscored the necessity of **continuous monitoring**, **secure configurations**, and **strong identity management** to prevent similar breaches.
+The **Google Cloud Security Command Center (SCC)** revealed significant compliance gaps related to access control, configuration management, and monitoring. The breach highlighted the urgent need for **robust cloud configuration management**, **network security enforcement**, and **identity-based access controls**.
+
+Immediate containment actions, combined with rapid remediation and long-term hardening measures, enabled the organization to restore integrity, strengthen resilience, and enhance compliance with key security frameworks.
 
 ---
 
@@ -55,27 +70,27 @@ Key compliance gaps were found in **access control**, **logging**, and **configu
 
 ### **Containment and Eradication Measures**
 
-1. **Isolated compromised VM (cc-app-01)** to stop malicious activity and preserve forensic evidence.
-2. **Closed open RDP/SSH ports** and enforced strict firewall rules limiting access through internal IPs and VPNs only.
-3. **Enabled firewall logging** for full visibility into inbound/outbound network traffic.
-4. **Revoked compromised credentials** and regenerated secure service account keys.
-5. **Removed public access** from all Cloud Storage buckets and implemented organization-wide access restrictions.
-6. **Scanned all compute resources** for residual malware and unauthorized processes.
-7. **Activated continuous threat monitoring** through Google Cloud Security Command Center (SCC).
-8. **Validated cleanup success** via fresh scans, log reviews, and integrity verification.
+1. **Isolated the compromised VM (cc-app-01)** to prevent further malicious activity and preserve forensic evidence.
+2. **Disabled open RDP and SSH ports** and implemented restrictive firewall rules allowing access only through internal IP ranges and VPN.
+3. **Enabled firewall rule logging** to regain full visibility into inbound and outbound network traffic.
+4. **Revoked and rotated all compromised credentials** and service account keys exposed during the attack.
+5. **Removed public access permissions** from all Cloud Storage buckets to prevent additional data leakage.
+6. **Conducted full malware scans** across all Compute Engine instances to identify and eliminate residual malicious scripts.
+7. **Enabled continuous threat detection and monitoring** using Google Cloud SCC and Cloud Logging.
+8. **Validated eradication success** through integrity checks, forensic log reviews, and environment re-verification.
 
 ---
 
 ### **Recovery Measures**
 
-1. **Rebuilt secure VM (cc-app-02)** using hardened configurations and no public IP assignment.
-2. **Restored clean backups** of data and services verified from pre-incident snapshots.
-3. **Applied OS and application patches** to remove known vulnerabilities.
-4. **Implemented IAM least privilege policies**, ensuring each user and service has minimal required permissions.
-5. **Deployed multi-factor authentication (MFA)** across all privileged accounts.
-6. **Configured continuous monitoring** with Cloud Logging, SCC, and automated alerting for high-severity findings.
-7. **Performed compliance validation**, achieving 100% OWASP 2021 compliance and 87% PCI DSS 3.2.1 adherence.
-8. **Documented incident response procedures** for audit and training purposes.
+1. **Provisioned a new hardened VM (cc-app-02)** configured without a public IP and with Secure Boot enabled.
+2. **Restored validated clean backups** of affected applications and databases from pre-incident recovery points.
+3. **Applied operating system and application patches** to address all known vulnerabilities.
+4. **Implemented least privilege access policies (IAM)** and enforced **multi-factor authentication (MFA)** for all administrative accounts.
+5. **Deployed continuous monitoring and automated alerts** through Cloud Monitoring and SCC for early detection of abnormal activities.
+6. **Reassessed compliance posture**, achieving 100% alignment with OWASP 2021 and 87% with PCI DSS 3.2.1.
+7. **Documented all response and recovery actions** to support audit and compliance requirements.
+8. **Conducted a post-incident review** to identify process gaps and integrate lessons learned into the incident response plan.
 
 ---
 
@@ -83,39 +98,40 @@ Key compliance gaps were found in **access control**, **logging**, and **configu
 
 ### **1. Enforce Strong Network Security Controls**
 
-Apply a **default-deny firewall policy**, allowing only authorized traffic. Restrict administrative access (SSH/RDP) through **Identity-Aware Proxy (IAP)** or **VPN**. Maintain permanent firewall logging for all inbound/outbound connections.
+Adopt a **default-deny network policy** to restrict all inbound traffic unless explicitly authorized. Limit SSH/RDP access via **Identity-Aware Proxy (IAP)** or **VPN**, and ensure firewall logging remains permanently enabled. These measures reduce the external attack surface and improve audit traceability.
 
 ---
 
 ### **2. Secure Cloud Storage Configurations**
 
-Prohibit public access to all storage buckets organization-wide. Use **Cloud Data Loss Prevention (DLP)** tools to detect sensitive data and enforce **Object Lifecycle Management** to prevent prolonged exposure of critical files.
+Enforce organization-wide **Cloud Storage access restrictions** that block all public permissions. Implement **Cloud Data Loss Prevention (DLP)** to scan for sensitive data and apply **Object Lifecycle Management** to control data exposure timeframes and retention policies.
 
 ---
 
 ### **3. Strengthen IAM and Credential Management**
 
-Adopt a **zero-trust access model** enforcing MFA, credential rotation, and role-based access control (RBAC). Use **IAM Recommender** to identify and remove unused permissions and enforce least privilege principles.
+Implement a **Zero Trust security model** emphasizing user verification and least privilege. Enforce MFA across all privileged accounts, rotate service keys regularly, and use **IAM Recommender** to eliminate excessive or unused permissions.
 
 ---
 
-### **4. Improve Continuous Monitoring and Incident Response**
+### **4. Enhance Continuous Monitoring and Incident Response**
 
-Integrate SCC alerts with the **incident response workflow** for faster detection and action. Conduct quarterly red team exercises, and automate vulnerability scans with compliance dashboards for proactive security assurance.
+Integrate **SCC findings** into automated incident response workflows for faster detection and mitigation. Conduct **quarterly penetration tests and red team exercises** to validate security controls. Use compliance dashboards to monitor configuration drift and vulnerability trends.
 
 ---
 
 ## **Project Conclusion**
 
-Through rapid containment, methodical remediation, and strengthened governance, Cymbal Retail **eradicated the threat**, restored full operational integrity, and reinforced its cloud security posture.
+Through swift containment, comprehensive remediation, and strengthened security governance, **Cymbal Retail successfully neutralized the breach**, restored operational integrity, and reinforced its overall cloud security resilience.
 
-The incident emphasized the need for:
+The incident demonstrated the importance of:
 
-* Continuous **security monitoring**
-* Rigorous **configuration management**
-* Comprehensive **incident documentation**
+* **Continuous monitoring and proactive threat detection**
+* **Regular configuration audits and compliance reviews**
+* **Adherence to least privilege principles**
+* **Comprehensive incident documentation and lessons learned**
 
-Cymbal Retail’s proactive actions have significantly enhanced resilience against future threats, aligning its operations with cloud security best practices and compliance frameworks.
+By implementing the recommended security measures, Cymbal Retail has significantly improved its defensive posture, achieving measurable compliance gains and operational confidence. This experience serves as a model for effective **cloud-based incident response and recovery** within modern enterprise environments.
 
 ---
 
@@ -123,5 +139,7 @@ Cymbal Retail’s proactive actions have significantly enhanced resilience again
 
 - **Project Executed & Presented By**: **Mohammad Aminul Islam** (Cloud Security Analyst)  
 - **Project Source**: Google Cloud Security Command Center hands-on project (Qwiklabs / Coursera)  
-- **Guidance & Framework**: Google Cloud documentation & Qwiklabs instructions  
+- **Guidance & Framework**: Google Cloud documentation, NIST SP 800-61, ISO/IEC 27035 & Qwiklabs instructions  
 - **Copyright**: © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. Other names may be trademarks of their respective companies. 
+
+---
