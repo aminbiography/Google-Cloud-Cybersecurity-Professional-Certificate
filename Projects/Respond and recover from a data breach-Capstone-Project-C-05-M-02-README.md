@@ -20,8 +20,6 @@ To identify, remediate, and verify the resolution of cloud security vulnerabilit
 
 ### **1. Analyze the Data Breach and Gather Information**
 
-**Qwiklabs Instructions:**
-
 1. In the **Navigation menu**, click **Security → Security Command Center**.
 2. Review the **Risk Overview** page to identify current vulnerabilities.
 3. Scroll down to **Active vulnerabilities** and open the **Findings by Resource Type** tab.
@@ -43,8 +41,6 @@ To identify, remediate, and verify the resolution of cloud security vulnerabilit
 ---
 
 ### **2. Fix Compute Engine Vulnerabilities**
-
-**Qwiklabs Instructions:**
 
 1. In the **Navigation menu**, go to **Compute Engine → VM Instances**.
 2. Select the compromised VM `cc-app-01` and click **Stop**. Confirm the stop action.
@@ -75,8 +71,6 @@ To identify, remediate, and verify the resolution of cloud security vulnerabilit
 
 ### **3. Fix Cloud Storage Bucket Permissions**
 
-**Qwiklabs Instructions:**
-
 1. Go to **Cloud Storage → Buckets**.
 2. Click the project bucket name (for example, `qwiklabs-gcp-XXXX-bucket`).
 3. Under the **Permissions** tab, locate **Public access** and click **Prevent public access** → Confirm.
@@ -92,8 +86,6 @@ To identify, remediate, and verify the resolution of cloud security vulnerabilit
 
 ### **4. Limit Firewall Ports Access**
 
-**Qwiklabs Instructions:**
-
 1. Navigate to **VPC Network → Firewall**.
 2. Click **Create firewall rule** and enter:
 
@@ -107,8 +99,6 @@ To identify, remediate, and verify the resolution of cloud security vulnerabilit
 ---
 
 ### **5. Fix the Firewall Configuration**
-
-**Qwiklabs Instructions:**
 
 1. Go to **VPC Network → Firewall**.
 2. Delete the following default rules:
@@ -133,8 +123,6 @@ To identify, remediate, and verify the resolution of cloud security vulnerabilit
 
 ### **6. Verify Compliance**
 
-**Qwiklabs Instructions:**
-
 1. In the **Security Command Center**, click **Compliance**.
 2. Under **Google Cloud compliance standards**, open the **PCI DSS 3.2.1** tile.
 3. Click the **Findings** column to display active findings first.
@@ -149,7 +137,7 @@ To identify, remediate, and verify the resolution of cloud security vulnerabilit
 
 ## **Project Conclusion:**
 
-By completing this project, you successfully identified and remediated the vulnerabilities that contributed to a simulated data breach in a Google Cloud environment. You restored compromised resources, secured Cloud Storage, hardened firewall configurations, and validated compliance. This project demonstrates foundational skills in **cloud incident response**, **vulnerability management**, and **compliance verification**.
+By completing this project, I successfully identified and remediated the vulnerabilities that contributed to a simulated data breach in a Google Cloud environment. I restored compromised resources, secured Cloud Storage, hardened firewall configurations, and validated compliance. This project demonstrates foundational skills in **cloud incident response**, **vulnerability management**, and **compliance verification**.
 
 ---
 
