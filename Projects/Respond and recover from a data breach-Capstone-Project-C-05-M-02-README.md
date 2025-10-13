@@ -4,7 +4,7 @@
 
 ## **Project Scenario:**
 
-Cymbal Retail, a multinational retail company with online and physical operations, recently suffered a massive data breach that exposed sensitive customer data. As a cloud security associate, my role is to help the security team identify the vulnerabilities that led to the breach, contain the threat, recover compromised resources, and verify compliance with PCI DSS standards using Google Cloud Security Command Center (SCC).
+Cymbal Retail, a multinational retail company with both online and physical operations, recently experienced a significant data breach that exposed sensitive customer information. As a Cloud Security Associate, my role is to assist the security team in identifying the vulnerabilities that caused the breach, containing the threat, recovering compromised resources, and verifying PCI DSS compliance using Google Cloud Security Command Center (SCC).
 
 ---
 
