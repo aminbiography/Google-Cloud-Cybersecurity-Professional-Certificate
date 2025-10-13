@@ -10,7 +10,7 @@ In this module, you’ll step into the role of a **cloud security analyst** and 
 
 ### **Learning Objectives**
 
-By the end of this module, you will be able to:
+By the end of this module, able to:
 
 1. Apply **incident response techniques** to detect, contain, and remediate cloud-based security incidents.
 2. Identify and fix misconfigurations in **Compute Engine VMs, Cloud Storage buckets, and firewall rules**.
