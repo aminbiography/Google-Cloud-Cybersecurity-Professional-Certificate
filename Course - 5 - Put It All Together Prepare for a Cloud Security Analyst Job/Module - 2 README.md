@@ -77,7 +77,6 @@ These actions successfully contained the incident and restored system integrity.
 ### **Integrating the Project into Portfolio**
 
 **Capstone Project** serves as a professional showcase of technical capabilities.
-##### **Steps to feature it effectively:**
 
 * Add **technical skills** (e.g., risk management, threat detection, GCP tools) to your resume.
 * Create a **Cloud Security Projects** section highlighting deliverables like incident reports and audit documents.
