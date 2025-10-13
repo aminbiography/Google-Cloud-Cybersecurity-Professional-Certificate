@@ -2,7 +2,7 @@
 
 ### **Overview**  
 
-**The Capstone Project** is the final module in the **Google Cloud Cybersecurity Certificate** program. It brings together everything you’ve learned across the previous courses, allowing to apply your **cloud security knowledge and technical skills** to a realistic, hands-on security scenario. This module represents the culmination of the Google Cloud Cybersecurity learning journey, designed to apply theory to practice in a realistic cloud environment.
+**The Capstone Project** is the final module in the **Google Cloud Cybersecurity Certificate** program. It brings together everything you’ve learned across the previous courses, allowing the application of **cloud security knowledge and technical skills** to a realistic, hands-on security scenario.
 
 In this module, step into the role of a **cloud security analyst** and respond to a simulated **data breach** at a fictional organization, *Cymbal Retail*. The project challenges you to analyze the incident, contain threats, remediate vulnerabilities, and create a detailed incident report. This experience mirrors the kind of work you’ll perform in professional cybersecurity roles and serves as a **portfolio-ready project** to demonstrate your job-readiness.
 
