@@ -4,7 +4,7 @@
 
 ## **Project Scenario:**
 
-Cymbal Retail, a multinational retail company with online and physical operations, recently suffered a massive data breach that exposed sensitive customer data. As a junior cloud security analyst, your role is to help the security team identify the vulnerabilities that led to the breach, contain the threat, recover compromised resources, and verify compliance with PCI DSS standards using Google Cloud Security Command Center (SCC).
+Cymbal Retail, a multinational retail company with online and physical operations, recently suffered a massive data breach that exposed sensitive customer data. As a cloud security associate, my role is to help the security team identify the vulnerabilities that led to the breach, contain the threat, recover compromised resources, and verify compliance with PCI DSS standards using Google Cloud Security Command Center (SCC).
 
 ---
 
