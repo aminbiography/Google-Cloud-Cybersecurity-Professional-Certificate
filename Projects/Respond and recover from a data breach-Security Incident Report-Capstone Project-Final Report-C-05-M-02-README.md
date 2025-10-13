@@ -1,4 +1,3 @@
-
 # **Final Report Presentation: Respond and Recover from a Data Breach**
 
 ---
