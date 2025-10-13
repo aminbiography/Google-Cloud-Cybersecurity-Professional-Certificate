@@ -93,7 +93,7 @@ These actions successfully contained the incident and restored system integrity.
 
 ### **Career Connection**
 
-Completing this module prepares for **entry-level roles** such as:
+Completing this module prepares for **roles** such as:
 
 * *Cloud Security Analyst*
 * *Cybersecurity Associate*
