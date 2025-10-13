@@ -10,13 +10,11 @@ In this module, you’ll step into the role of a **cloud security analyst** and 
 
 ### **Learning Objectives**
 
-By the end of this module, will be able to:
-
 1. Apply **incident response techniques** to detect, contain, and remediate cloud-based security incidents.
 2. Identify and fix misconfigurations in **Compute Engine VMs, Cloud Storage buckets, and firewall rules**.
 3. Verify compliance with frameworks like **PCI DSS 3.2.1**.
 4. Communicate findings effectively through a structured **security incident report**.
-5. Present your project as a **portfolio artifact** to potential employers.
+5. Present project as a **portfolio artifact** to potential employers.
 
 ---
 
