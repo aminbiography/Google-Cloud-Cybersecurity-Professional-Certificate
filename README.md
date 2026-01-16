@@ -24,7 +24,7 @@ Live URL: https://aminbiography.github.io/Google-Cloud-Cybersecurity-Professiona
 
 ## MIT License
 
-Copyright (c) 2025 Mohammad Aminul Islam  
+Copyright (c) Mohammad Aminul Islam  
 This file is part of the **Google Cloud Cybersecurity Professional Certificate** program on Coursera. (Personal Short Note) and Certifications.  
 Licensed under the MIT License. See the LICENSE file for details.
 
