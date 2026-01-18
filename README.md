@@ -2,7 +2,7 @@
 
 <img src="https://images.credly.com/images/505080ad-3731-4b1d-98df-347655a45750/image.png" alt="Google Cloud Security Certificate on Coursera" width="400" height="400">
  
-</div>               
+</div>                
       
 Live URL: https://aminbiography.github.io/Google-Cloud-Cybersecurity-Professional-Certificate/
          
