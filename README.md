@@ -12,7 +12,7 @@ Live URL: https://aminbiography.github.io/Google-Cloud-Cybersecurity-Professiona
 
 ![Google Cloud Security Certificate - Put It All Together: Prepare for a Cloud Security Analyst Job on Coursera](https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~ASM3SX6BCYEX/CERTIFICATE_LANDING_PAGE~ASM3SX6BCYEX.jpeg)
 
-![Google Cloud Security Certificate - Detect, Respond, and Recover from Cloud Cybersecurity Attacks on Coursera](https://coursera-certificate-images.s3.amazonaws.com/SAX1P15UMGR1)
+![Google Cloud Security Certificate - Detect, Respond, and Recover from Cloud Cybersecurity Attacks on Coursera](https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~SAX1P15UMGR1/CERTIFICATE_LANDING_PAGE~SAX1P15UMGR1.jpeg)
 
 ![Google Cloud Security Certificate on Coursera](https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~ZDK560Z98F5F/CERTIFICATE_LANDING_PAGE~ZDK560Z98F5F.jpeg)
 
