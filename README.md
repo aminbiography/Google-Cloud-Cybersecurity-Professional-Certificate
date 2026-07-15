@@ -1,6 +1,6 @@
 <div align="center">                                                                                        
  
-<img src="https://images.credly.com/images/505080ad-3731-4b1d-98df-347655a45750/image.png" alt="Google Cloud Security Certificate on Coursera" width="300" height="300">
+<img src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~9CH6GVDJC4C4/CERTIFICATE_LANDING_PAGE~9CH6GVDJC4C4.jpe " alt="Google Cloud Security Certificate on Coursera" width="300" height="300">
  
 </div>                                  
         
